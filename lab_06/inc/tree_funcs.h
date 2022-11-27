@@ -3,6 +3,8 @@
 
 #include "struct.h"
 
+#include <stdio.h>
+
 /**
  * \brief create_node - Функция, которая создает узел(корень деревья)
  * \param name Узел деревья
@@ -21,10 +23,10 @@ tree_node_t *insert(tree_node_t *tree, tree_node_t *node);
 /**
  * \brief lookup - Поиск в деревье
  * \param tree Структура деревья
- * \param name Название узла, который хотим найти
+ * \param letter Название узла, который хотим найти
  * \return Узел
  */
-tree_node_t *lookup(tree_node_t *tree, const char *name);
+void lookup(tree_node_t *tree, const char letter, size_t *count, void *arg);
 
 /**
  * \brief btree_apply_pre - 
@@ -33,5 +35,7 @@ tree_node_t *lookup(tree_node_t *tree, const char *name);
  * \param arg s
  */
 void btree_apply_pre(tree_node_t *tree, void (*f)(tree_node_t *, void *), void *arg);
+
+void search_letter_pre(tree_node_t *tree, void (*f)(tree_node_t *, const char, size_t *, void *), const char letter, size_t *count, void *arg);
 
 #endif // TREE_FUNCS_H
