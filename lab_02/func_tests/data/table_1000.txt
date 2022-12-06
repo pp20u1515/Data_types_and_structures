@@ -1,0 +1,1000 @@
+Mussa Ali 8317081 Lenina 4 1 student university  
+Piskunov Pante 6708221 Izmailovski 7 1 programmer university
+Alakovic Nebojsa 111 Esimova 5 0 17 10 2000
+Piskunova Nina 89898 Pobeda 111 1 student university
+Koic Dimitrije 9234 Sovetov 23 0 22 10 2000
+Isaev Diaz 317082 Vostok 24 0 18 3 2002
+Mansurow Vlad 670822 Esimova 15 1 programmer mail.ru
+Mirzabekov Ramis 11 Izmailovski 74 1 student university
+Vagapov Gleb 89098 Sovetov 111 1 teacher school
+Orlenko Anna 9214 Vostok 17 0 20 10 2001
+Chepigo Daria 8317083 Lenina 4 0 9 6 2004
+Chepigo Dasha 6702221 Esimova 10 1 programmer vk
+Rud Maksim 1111 Pobeda 19 0 23 1 1997
+Abzah Ryan 89798 Sovetov 30 1 programmer mail.ru
+Ahmad Khalid 1234 Lenina 1 1 teacher university
+Vladislav Vlad 8317084 Lenina 4 0 15 2 1997
+Kostricki Aleksandar 6708222 Esimova 9 1 teacher university
+Orlenkov Petr 112 Pobeda 25 0 23 3 2002
+Mitrovic Olya 89891 Vostok 17 0 8 7 2001
+Lomovskoy Igor 9235 Izmailovski 75 1 teacher university
+Mussa_copy Ali 831708155 Lenina 4 0 9 9 1999  
+Piskunov_copy Pante 670822155 Izmailovski 7 1 programmer university
+Alakovic_copy Nebojsa 111555 Esimova 5 0 11 10 2000
+Piskunova_copy Nina 89898543 Pobeda 111 1 student university
+Koic_copy Dimitrije 9234543 Sovetov 23 0 12 10 2000
+Isaev_copy Diaz 3170822222 Vostok 24 0 13 3 2002
+Mansurow_copy Vlad 67082211221 Esimova 15 1 programmer mail.ru
+Mirzabekov_copy Ramis 11333 Izmailovski 74 1 student university
+Vagapov_copy Gleb 89098777 Sovetov 111 1 teacher school
+Orlenko_copy Anna 92147899 Vostok 17 0 7 10 2001
+Chepigo_copy Daria 83170839991 Lenina 4 0 9 6 2004
+Chepigo_copy Dasha 67022210023 Esimova 10 1 programmer vk
+Rud_copy Maksim 111166666 Pobeda 19 0 23 1 1997
+Abzah_copy Ryan 897981111 Sovetov 30 1 programmer mail.ru
+Ahmad_copy Khalid 12342222 Lenina 1 1 teacher university
+Vladislav_copy Vlad 83170840007 Lenina 4 0 15 2 1997
+Kostricki_copy Aleksandar 67082220007 Esimova 9 1 teacher university
+Orlenkov_copy Petr 1120007 Pobeda 25 0 23 3 2002
+Mitrovic_copy Olya 89891999001 Vostok 17 0 8 7 2001
+Lomovskoy_copy Igor 9235112009 Izmailovski 75 1 teacher university
+Mussa Ali 8317081 Lenina 4 1 student university  
+Piskunov Pante 6708221 Izmailovski 7 1 programmer university
+Alakovic Nebojsa 111 Esimova 5 0 17 10 2000
+Piskunova Nina 89898 Pobeda 111 1 student university
+Koic Dimitrije 9234 Sovetov 23 0 22 10 2000
+Isaev Diaz 317082 Vostok 24 0 18 3 2002
+Mansurow Vlad 670822 Esimova 15 1 programmer mail.ru
+Mirzabekov Ramis 11 Izmailovski 74 1 student university
+Vagapov Gleb 89098 Sovetov 111 1 teacher school
+Orlenko Anna 9214 Vostok 17 0 20 10 2001
+Chepigo Daria 8317083 Lenina 4 0 9 6 2004
+Chepigo Dasha 6702221 Esimova 10 1 programmer vk
+Rud Maksim 1111 Pobeda 19 0 23 1 1997
+Abzah Ryan 89798 Sovetov 30 1 programmer mail.ru
+Ahmad Khalid 1234 Lenina 1 1 teacher university
+Vladislav Vlad 8317084 Lenina 4 0 15 2 1997
+Kostricki Aleksandar 6708222 Esimova 9 1 teacher university
+Orlenkov Petr 112 Pobeda 25 0 23 3 2002
+Mitrovic Olya 89891 Vostok 17 0 8 7 2001
+Lomovskoy Igor 9235 Izmailovski 75 1 teacher university
+Mussa_copy Ali 831708155 Lenina 4 0 9 9 1999  
+Piskunov_copy Pante 670822155 Izmailovski 7 1 programmer university
+Alakovic_copy Nebojsa 111555 Esimova 5 0 11 10 2000
+Piskunova_copy Nina 89898543 Pobeda 111 1 student university
+Koic_copy Dimitrije 9234543 Sovetov 23 0 12 10 2000
+Isaev_copy Diaz 3170822222 Vostok 24 0 13 3 2002
+Mansurow_copy Vlad 67082211221 Esimova 15 1 programmer mail.ru
+Mirzabekov_copy Ramis 11333 Izmailovski 74 1 student university
+Vagapov_copy Gleb 89098777 Sovetov 111 1 teacher school
+Orlenko_copy Anna 92147899 Vostok 17 0 7 10 2001
+Chepigo_copy Daria 83170839991 Lenina 4 0 9 6 2004
+Chepigo_copy Dasha 67022210023 Esimova 10 1 programmer vk
+Rud_copy Maksim 111166666 Pobeda 19 0 23 1 1997
+Abzah_copy Ryan 897981111 Sovetov 30 1 programmer mail.ru
+Ahmad_copy Khalid 12342222 Lenina 1 1 teacher university
+Vladislav_copy Vlad 83170840007 Lenina 4 0 15 2 1997
+Kostricki_copy Aleksandar 67082220007 Esimova 9 1 teacher university
+Orlenkov_copy Petr 1120007 Pobeda 25 0 23 3 2002
+Mitrovic_copy Olya 89891999001 Vostok 17 0 8 7 2001
+Lomovskoy_copy Igor 9235112009 Izmailovski 75 1 teacher university
+Mussa Ali 8317081 Lenina 4 1 student university  
+Piskunov Pante 6708221 Izmailovski 7 1 programmer university
+Alakovic Nebojsa 111 Esimova 5 0 17 10 2000
+Piskunova Nina 89898 Pobeda 111 1 student university
+Koic Dimitrije 9234 Sovetov 23 0 22 10 2000
+Isaev Diaz 317082 Vostok 24 0 18 3 2002
+Mansurow Vlad 670822 Esimova 15 1 programmer mail.ru
+Mirzabekov Ramis 11 Izmailovski 74 1 student university
+Vagapov Gleb 89098 Sovetov 111 1 teacher school
+Orlenko Anna 9214 Vostok 17 0 20 10 2001
+Chepigo Daria 8317083 Lenina 4 0 9 6 2004
+Chepigo Dasha 6702221 Esimova 10 1 programmer vk
+Rud Maksim 1111 Pobeda 19 0 23 1 1997
+Abzah Ryan 89798 Sovetov 30 1 programmer mail.ru
+Ahmad Khalid 1234 Lenina 1 1 teacher university
+Vladislav Vlad 8317084 Lenina 4 0 15 2 1997
+Kostricki Aleksandar 6708222 Esimova 9 1 teacher university
+Orlenkov Petr 112 Pobeda 25 0 23 3 2002
+Mitrovic Olya 89891 Vostok 17 0 8 7 2001
+Lomovskoy Igor 9235 Izmailovski 75 1 teacher university
+Mussa Ali 8317081 Lenina 4 1 student university  
+Piskunov Pante 6708221 Izmailovski 7 1 programmer university
+Alakovic Nebojsa 111 Esimova 5 0 17 10 2000
+Piskunova Nina 89898 Pobeda 111 1 student university
+Koic Dimitrije 9234 Sovetov 23 0 22 10 2000
+Isaev Diaz 317082 Vostok 24 0 18 3 2002
+Mansurow Vlad 670822 Esimova 15 1 programmer mail.ru
+Mirzabekov Ramis 11 Izmailovski 74 1 student university
+Vagapov Gleb 89098 Sovetov 111 1 teacher school
+Orlenko Anna 9214 Vostok 17 0 20 10 2001
+Chepigo Daria 8317083 Lenina 4 0 9 6 2004
+Chepigo Dasha 6702221 Esimova 10 1 programmer vk
+Rud Maksim 1111 Pobeda 19 0 23 1 1997
+Abzah Ryan 89798 Sovetov 30 1 programmer mail.ru
+Ahmad Khalid 1234 Lenina 1 1 teacher university
+Vladislav Vlad 8317084 Lenina 4 0 15 2 1997
+Kostricki Aleksandar 6708222 Esimova 9 1 teacher university
+Orlenkov Petr 112 Pobeda 25 0 23 3 2002
+Mitrovic Olya 89891 Vostok 17 0 8 7 2001
+Lomovskoy Igor 9235 Izmailovski 75 1 teacher university
+Mussa_copy Ali 831708155 Lenina 4 0 9 9 1999  
+Piskunov_copy Pante 670822155 Izmailovski 7 1 programmer university
+Alakovic_copy Nebojsa 111555 Esimova 5 0 11 10 2000
+Piskunova_copy Nina 89898543 Pobeda 111 1 student university
+Koic_copy Dimitrije 9234543 Sovetov 23 0 12 10 2000
+Isaev_copy Diaz 3170822222 Vostok 24 0 13 3 2002
+Mansurow_copy Vlad 67082211221 Esimova 15 1 programmer mail.ru
+Mirzabekov_copy Ramis 11333 Izmailovski 74 1 student university
+Vagapov_copy Gleb 89098777 Sovetov 111 1 teacher school
+Orlenko_copy Anna 92147899 Vostok 17 0 7 10 2001
+Chepigo_copy Daria 83170839991 Lenina 4 0 9 6 2004
+Chepigo_copy Dasha 67022210023 Esimova 10 1 programmer vk
+Rud_copy Maksim 111166666 Pobeda 19 0 23 1 1997
+Abzah_copy Ryan 897981111 Sovetov 30 1 programmer mail.ru
+Ahmad_copy Khalid 12342222 Lenina 1 1 teacher university
+Vladislav_copy Vlad 83170840007 Lenina 4 0 15 2 1997
+Kostricki_copy Aleksandar 67082220007 Esimova 9 1 teacher university
+Orlenkov_copy Petr 1120007 Pobeda 25 0 23 3 2002
+Mitrovic_copy Olya 89891999001 Vostok 17 0 8 7 2001
+Lomovskoy_copy Igor 9235112009 Izmailovski 75 1 teacher university
+Mussa Ali 8317081 Lenina 4 1 student university  
+Piskunov Pante 6708221 Izmailovski 7 1 programmer university
+Alakovic Nebojsa 111 Esimova 5 0 17 10 2000
+Piskunova Nina 89898 Pobeda 111 1 student university
+Koic Dimitrije 9234 Sovetov 23 0 22 10 2000
+Isaev Diaz 317082 Vostok 24 0 18 3 2002
+Mansurow Vlad 670822 Esimova 15 1 programmer mail.ru
+Mirzabekov Ramis 11 Izmailovski 74 1 student university
+Vagapov Gleb 89098 Sovetov 111 1 teacher school
+Orlenko Anna 9214 Vostok 17 0 20 10 2001
+Chepigo Daria 8317083 Lenina 4 0 9 6 2004
+Chepigo Dasha 6702221 Esimova 10 1 programmer vk
+Rud Maksim 1111 Pobeda 19 0 23 1 1997
+Abzah Ryan 89798 Sovetov 30 1 programmer mail.ru
+Ahmad Khalid 1234 Lenina 1 1 teacher university
+Vladislav Vlad 8317084 Lenina 4 0 15 2 1997
+Kostricki Aleksandar 6708222 Esimova 9 1 teacher university
+Orlenkov Petr 112 Pobeda 25 0 23 3 2002
+Mitrovic Olya 89891 Vostok 17 0 8 7 2001
+Lomovskoy Igor 9235 Izmailovski 75 1 teacher university
+Mussa_copy Ali 831708155 Lenina 4 0 9 9 1999  
+Piskunov_copy Pante 670822155 Izmailovski 7 1 programmer university
+Alakovic_copy Nebojsa 111555 Esimova 5 0 11 10 2000
+Piskunova_copy Nina 89898543 Pobeda 111 1 student university
+Koic_copy Dimitrije 9234543 Sovetov 23 0 12 10 2000
+Isaev_copy Diaz 3170822222 Vostok 24 0 13 3 2002
+Mansurow_copy Vlad 67082211221 Esimova 15 1 programmer mail.ru
+Mirzabekov_copy Ramis 11333 Izmailovski 74 1 student university
+Vagapov_copy Gleb 89098777 Sovetov 111 1 teacher school
+Orlenko_copy Anna 92147899 Vostok 17 0 7 10 2001
+Chepigo_copy Daria 83170839991 Lenina 4 0 9 6 2004
+Chepigo_copy Dasha 67022210023 Esimova 10 1 programmer vk
+Rud_copy Maksim 111166666 Pobeda 19 0 23 1 1997
+Abzah_copy Ryan 897981111 Sovetov 30 1 programmer mail.ru
+Ahmad_copy Khalid 12342222 Lenina 1 1 teacher university
+Vladislav_copy Vlad 83170840007 Lenina 4 0 15 2 1997
+Kostricki_copy Aleksandar 67082220007 Esimova 9 1 teacher university
+Orlenkov_copy Petr 1120007 Pobeda 25 0 23 3 2002
+Mitrovic_copy Olya 89891999001 Vostok 17 0 8 7 2001
+Lomovskoy_copy Igor 9235112009 Izmailovski 75 1 teacher university
+Mussa Ali 8317081 Lenina 4 1 student university  
+Piskunov Pante 6708221 Izmailovski 7 1 programmer university
+Alakovic Nebojsa 111 Esimova 5 0 17 10 2000
+Piskunova Nina 89898 Pobeda 111 1 student university
+Koic Dimitrije 9234 Sovetov 23 0 22 10 2000
+Isaev Diaz 317082 Vostok 24 0 18 3 2002
+Mansurow Vlad 670822 Esimova 15 1 programmer mail.ru
+Mirzabekov Ramis 11 Izmailovski 74 1 student university
+Vagapov Gleb 89098 Sovetov 111 1 teacher school
+Orlenko Anna 9214 Vostok 17 0 20 10 2001
+Chepigo Daria 8317083 Lenina 4 0 9 6 2004
+Chepigo Dasha 6702221 Esimova 10 1 programmer vk
+Rud Maksim 1111 Pobeda 19 0 23 1 1997
+Abzah Ryan 89798 Sovetov 30 1 programmer mail.ru
+Ahmad Khalid 1234 Lenina 1 1 teacher university
+Vladislav Vlad 8317084 Lenina 4 0 15 2 1997
+Kostricki Aleksandar 6708222 Esimova 9 1 teacher university
+Orlenkov Petr 112 Pobeda 25 0 23 3 2002
+Mitrovic Olya 89891 Vostok 17 0 8 7 2001
+Lomovskoy Igor 9235 Izmailovski 75 1 teacher university
+Mussa Ali 8317081 Lenina 4 1 student university  
+Piskunov Pante 6708221 Izmailovski 7 1 programmer university
+Alakovic Nebojsa 111 Esimova 5 0 17 10 2000
+Piskunova Nina 89898 Pobeda 111 1 student university
+Koic Dimitrije 9234 Sovetov 23 0 22 10 2000
+Isaev Diaz 317082 Vostok 24 0 18 3 2002
+Mansurow Vlad 670822 Esimova 15 1 programmer mail.ru
+Mirzabekov Ramis 11 Izmailovski 74 1 student university
+Vagapov Gleb 89098 Sovetov 111 1 teacher school
+Orlenko Anna 9214 Vostok 17 0 20 10 2001
+Chepigo Daria 8317083 Lenina 4 0 9 6 2004
+Chepigo Dasha 6702221 Esimova 10 1 programmer vk
+Rud Maksim 1111 Pobeda 19 0 23 1 1997
+Abzah Ryan 89798 Sovetov 30 1 programmer mail.ru
+Ahmad Khalid 1234 Lenina 1 1 teacher university
+Vladislav Vlad 8317084 Lenina 4 0 15 2 1997
+Kostricki Aleksandar 6708222 Esimova 9 1 teacher university
+Orlenkov Petr 112 Pobeda 25 0 23 3 2002
+Mitrovic Olya 89891 Vostok 17 0 8 7 2001
+Lomovskoy Igor 9235 Izmailovski 75 1 teacher university
+Mussa_copy Ali 831708155 Lenina 4 0 9 9 1999  
+Piskunov_copy Pante 670822155 Izmailovski 7 1 programmer university
+Alakovic_copy Nebojsa 111555 Esimova 5 0 11 10 2000
+Piskunova_copy Nina 89898543 Pobeda 111 1 student university
+Koic_copy Dimitrije 9234543 Sovetov 23 0 12 10 2000
+Isaev_copy Diaz 3170822222 Vostok 24 0 13 3 2002
+Mansurow_copy Vlad 67082211221 Esimova 15 1 programmer mail.ru
+Mirzabekov_copy Ramis 11333 Izmailovski 74 1 student university
+Vagapov_copy Gleb 89098777 Sovetov 111 1 teacher school
+Orlenko_copy Anna 92147899 Vostok 17 0 7 10 2001
+Chepigo_copy Daria 83170839991 Lenina 4 0 9 6 2004
+Chepigo_copy Dasha 67022210023 Esimova 10 1 programmer vk
+Rud_copy Maksim 111166666 Pobeda 19 0 23 1 1997
+Abzah_copy Ryan 897981111 Sovetov 30 1 programmer mail.ru
+Ahmad_copy Khalid 12342222 Lenina 1 1 teacher university
+Vladislav_copy Vlad 83170840007 Lenina 4 0 15 2 1997
+Kostricki_copy Aleksandar 67082220007 Esimova 9 1 teacher university
+Orlenkov_copy Petr 1120007 Pobeda 25 0 23 3 2002
+Mitrovic_copy Olya 89891999001 Vostok 17 0 8 7 2001
+Lomovskoy_copy Igor 9235112009 Izmailovski 75 1 teacher university
+Mussa Ali 8317081 Lenina 4 1 student university  
+Piskunov Pante 6708221 Izmailovski 7 1 programmer university
+Alakovic Nebojsa 111 Esimova 5 0 17 10 2000
+Piskunova Nina 89898 Pobeda 111 1 student university
+Koic Dimitrije 9234 Sovetov 23 0 22 10 2000
+Isaev Diaz 317082 Vostok 24 0 18 3 2002
+Mansurow Vlad 670822 Esimova 15 1 programmer mail.ru
+Mirzabekov Ramis 11 Izmailovski 74 1 student university
+Vagapov Gleb 89098 Sovetov 111 1 teacher school
+Orlenko Anna 9214 Vostok 17 0 20 10 2001
+Chepigo Daria 8317083 Lenina 4 0 9 6 2004
+Chepigo Dasha 6702221 Esimova 10 1 programmer vk
+Rud Maksim 1111 Pobeda 19 0 23 1 1997
+Abzah Ryan 89798 Sovetov 30 1 programmer mail.ru
+Ahmad Khalid 1234 Lenina 1 1 teacher university
+Vladislav Vlad 8317084 Lenina 4 0 15 2 1997
+Kostricki Aleksandar 6708222 Esimova 9 1 teacher university
+Orlenkov Petr 112 Pobeda 25 0 23 3 2002
+Mitrovic Olya 89891 Vostok 17 0 8 7 2001
+Lomovskoy Igor 9235 Izmailovski 75 1 teacher university
+Mussa_copy Ali 831708155 Lenina 4 0 9 9 1999  
+Piskunov_copy Pante 670822155 Izmailovski 7 1 programmer university
+Alakovic_copy Nebojsa 111555 Esimova 5 0 11 10 2000
+Piskunova_copy Nina 89898543 Pobeda 111 1 student university
+Koic_copy Dimitrije 9234543 Sovetov 23 0 12 10 2000
+Isaev_copy Diaz 3170822222 Vostok 24 0 13 3 2002
+Mansurow_copy Vlad 67082211221 Esimova 15 1 programmer mail.ru
+Mirzabekov_copy Ramis 11333 Izmailovski 74 1 student university
+Vagapov_copy Gleb 89098777 Sovetov 111 1 teacher school
+Orlenko_copy Anna 92147899 Vostok 17 0 7 10 2001
+Chepigo_copy Daria 83170839991 Lenina 4 0 9 6 2004
+Chepigo_copy Dasha 67022210023 Esimova 10 1 programmer vk
+Rud_copy Maksim 111166666 Pobeda 19 0 23 1 1997
+Abzah_copy Ryan 897981111 Sovetov 30 1 programmer mail.ru
+Ahmad_copy Khalid 12342222 Lenina 1 1 teacher university
+Vladislav_copy Vlad 83170840007 Lenina 4 0 15 2 1997
+Kostricki_copy Aleksandar 67082220007 Esimova 9 1 teacher university
+Orlenkov_copy Petr 1120007 Pobeda 25 0 23 3 2002
+Mitrovic_copy Olya 89891999001 Vostok 17 0 8 7 2001
+Lomovskoy_copy Igor 9235112009 Izmailovski 75 1 teacher university
+Mussa Ali 8317081 Lenina 4 1 student university  
+Piskunov Pante 6708221 Izmailovski 7 1 programmer university
+Alakovic Nebojsa 111 Esimova 5 0 17 10 2000
+Piskunova Nina 89898 Pobeda 111 1 student university
+Koic Dimitrije 9234 Sovetov 23 0 22 10 2000
+Isaev Diaz 317082 Vostok 24 0 18 3 2002
+Mansurow Vlad 670822 Esimova 15 1 programmer mail.ru
+Mirzabekov Ramis 11 Izmailovski 74 1 student university
+Vagapov Gleb 89098 Sovetov 111 1 teacher school
+Orlenko Anna 9214 Vostok 17 0 20 10 2001
+Chepigo Daria 8317083 Lenina 4 0 9 6 2004
+Chepigo Dasha 6702221 Esimova 10 1 programmer vk
+Rud Maksim 1111 Pobeda 19 0 23 1 1997
+Abzah Ryan 89798 Sovetov 30 1 programmer mail.ru
+Ahmad Khalid 1234 Lenina 1 1 teacher university
+Vladislav Vlad 8317084 Lenina 4 0 15 2 1997
+Kostricki Aleksandar 6708222 Esimova 9 1 teacher university
+Orlenkov Petr 112 Pobeda 25 0 23 3 2002
+Mitrovic Olya 89891 Vostok 17 0 8 7 2001
+Lomovskoy Igor 9235 Izmailovski 75 1 teacher university
+Mussa Ali 8317081 Lenina 4 1 student university  
+Piskunov Pante 6708221 Izmailovski 7 1 programmer university
+Alakovic Nebojsa 111 Esimova 5 0 17 10 2000
+Piskunova Nina 89898 Pobeda 111 1 student university
+Koic Dimitrije 9234 Sovetov 23 0 22 10 2000
+Isaev Diaz 317082 Vostok 24 0 18 3 2002
+Mansurow Vlad 670822 Esimova 15 1 programmer mail.ru
+Mirzabekov Ramis 11 Izmailovski 74 1 student university
+Vagapov Gleb 89098 Sovetov 111 1 teacher school
+Orlenko Anna 9214 Vostok 17 0 20 10 2001
+Chepigo Daria 8317083 Lenina 4 0 9 6 2004
+Chepigo Dasha 6702221 Esimova 10 1 programmer vk
+Rud Maksim 1111 Pobeda 19 0 23 1 1997
+Abzah Ryan 89798 Sovetov 30 1 programmer mail.ru
+Ahmad Khalid 1234 Lenina 1 1 teacher university
+Vladislav Vlad 8317084 Lenina 4 0 15 2 1997
+Kostricki Aleksandar 6708222 Esimova 9 1 teacher university
+Orlenkov Petr 112 Pobeda 25 0 23 3 2002
+Mitrovic Olya 89891 Vostok 17 0 8 7 2001
+Lomovskoy Igor 9235 Izmailovski 75 1 teacher university
+Mussa_copy Ali 831708155 Lenina 4 0 9 9 1999  
+Piskunov_copy Pante 670822155 Izmailovski 7 1 programmer university
+Alakovic_copy Nebojsa 111555 Esimova 5 0 11 10 2000
+Piskunova_copy Nina 89898543 Pobeda 111 1 student university
+Koic_copy Dimitrije 9234543 Sovetov 23 0 12 10 2000
+Isaev_copy Diaz 3170822222 Vostok 24 0 13 3 2002
+Mansurow_copy Vlad 67082211221 Esimova 15 1 programmer mail.ru
+Mirzabekov_copy Ramis 11333 Izmailovski 74 1 student university
+Vagapov_copy Gleb 89098777 Sovetov 111 1 teacher school
+Orlenko_copy Anna 92147899 Vostok 17 0 7 10 2001
+Chepigo_copy Daria 83170839991 Lenina 4 0 9 6 2004
+Chepigo_copy Dasha 67022210023 Esimova 10 1 programmer vk
+Rud_copy Maksim 111166666 Pobeda 19 0 23 1 1997
+Abzah_copy Ryan 897981111 Sovetov 30 1 programmer mail.ru
+Ahmad_copy Khalid 12342222 Lenina 1 1 teacher university
+Vladislav_copy Vlad 83170840007 Lenina 4 0 15 2 1997
+Kostricki_copy Aleksandar 67082220007 Esimova 9 1 teacher university
+Orlenkov_copy Petr 1120007 Pobeda 25 0 23 3 2002
+Mitrovic_copy Olya 89891999001 Vostok 17 0 8 7 2001
+Lomovskoy_copy Igor 9235112009 Izmailovski 75 1 teacher university
+Mussa Ali 8317081 Lenina 4 1 student university  
+Piskunov Pante 6708221 Izmailovski 7 1 programmer university
+Alakovic Nebojsa 111 Esimova 5 0 17 10 2000
+Piskunova Nina 89898 Pobeda 111 1 student university
+Koic Dimitrije 9234 Sovetov 23 0 22 10 2000
+Isaev Diaz 317082 Vostok 24 0 18 3 2002
+Mansurow Vlad 670822 Esimova 15 1 programmer mail.ru
+Mirzabekov Ramis 11 Izmailovski 74 1 student university
+Vagapov Gleb 89098 Sovetov 111 1 teacher school
+Orlenko Anna 9214 Vostok 17 0 20 10 2001
+Chepigo Daria 8317083 Lenina 4 0 9 6 2004
+Chepigo Dasha 6702221 Esimova 10 1 programmer vk
+Rud Maksim 1111 Pobeda 19 0 23 1 1997
+Abzah Ryan 89798 Sovetov 30 1 programmer mail.ru
+Ahmad Khalid 1234 Lenina 1 1 teacher university
+Vladislav Vlad 8317084 Lenina 4 0 15 2 1997
+Kostricki Aleksandar 6708222 Esimova 9 1 teacher university
+Orlenkov Petr 112 Pobeda 25 0 23 3 2002
+Mitrovic Olya 89891 Vostok 17 0 8 7 2001
+Lomovskoy Igor 9235 Izmailovski 75 1 teacher university
+Mussa_copy Ali 831708155 Lenina 4 0 9 9 1999  
+Piskunov_copy Pante 670822155 Izmailovski 7 1 programmer university
+Alakovic_copy Nebojsa 111555 Esimova 5 0 11 10 2000
+Piskunova_copy Nina 89898543 Pobeda 111 1 student university
+Koic_copy Dimitrije 9234543 Sovetov 23 0 12 10 2000
+Isaev_copy Diaz 3170822222 Vostok 24 0 13 3 2002
+Mansurow_copy Vlad 67082211221 Esimova 15 1 programmer mail.ru
+Mirzabekov_copy Ramis 11333 Izmailovski 74 1 student university
+Vagapov_copy Gleb 89098777 Sovetov 111 1 teacher school
+Orlenko_copy Anna 92147899 Vostok 17 0 7 10 2001
+Chepigo_copy Daria 83170839991 Lenina 4 0 9 6 2004
+Chepigo_copy Dasha 67022210023 Esimova 10 1 programmer vk
+Rud_copy Maksim 111166666 Pobeda 19 0 23 1 1997
+Abzah_copy Ryan 897981111 Sovetov 30 1 programmer mail.ru
+Ahmad_copy Khalid 12342222 Lenina 1 1 teacher university
+Vladislav_copy Vlad 83170840007 Lenina 4 0 15 2 1997
+Kostricki_copy Aleksandar 67082220007 Esimova 9 1 teacher university
+Orlenkov_copy Petr 1120007 Pobeda 25 0 23 3 2002
+Mitrovic_copy Olya 89891999001 Vostok 17 0 8 7 2001
+Lomovskoy_copy Igor 9235112009 Izmailovski 75 1 teacher university
+Mussa Ali 8317081 Lenina 4 1 student university  
+Piskunov Pante 6708221 Izmailovski 7 1 programmer university
+Alakovic Nebojsa 111 Esimova 5 0 17 10 2000
+Piskunova Nina 89898 Pobeda 111 1 student university
+Koic Dimitrije 9234 Sovetov 23 0 22 10 2000
+Isaev Diaz 317082 Vostok 24 0 18 3 2002
+Mansurow Vlad 670822 Esimova 15 1 programmer mail.ru
+Mirzabekov Ramis 11 Izmailovski 74 1 student university
+Vagapov Gleb 89098 Sovetov 111 1 teacher school
+Orlenko Anna 9214 Vostok 17 0 20 10 2001
+Chepigo Daria 8317083 Lenina 4 0 9 6 2004
+Chepigo Dasha 6702221 Esimova 10 1 programmer vk
+Rud Maksim 1111 Pobeda 19 0 23 1 1997
+Abzah Ryan 89798 Sovetov 30 1 programmer mail.ru
+Ahmad Khalid 1234 Lenina 1 1 teacher university
+Vladislav Vlad 8317084 Lenina 4 0 15 2 1997
+Kostricki Aleksandar 6708222 Esimova 9 1 teacher university
+Orlenkov Petr 112 Pobeda 25 0 23 3 2002
+Mitrovic Olya 89891 Vostok 17 0 8 7 2001
+Lomovskoy Igor 9235 Izmailovski 75 1 teacher university
+Mussa Ali 8317081 Lenina 4 1 student university  
+Piskunov Pante 6708221 Izmailovski 7 1 programmer university
+Alakovic Nebojsa 111 Esimova 5 0 17 10 2000
+Piskunova Nina 89898 Pobeda 111 1 student university
+Koic Dimitrije 9234 Sovetov 23 0 22 10 2000
+Isaev Diaz 317082 Vostok 24 0 18 3 2002
+Mansurow Vlad 670822 Esimova 15 1 programmer mail.ru
+Mirzabekov Ramis 11 Izmailovski 74 1 student university
+Vagapov Gleb 89098 Sovetov 111 1 teacher school
+Orlenko Anna 9214 Vostok 17 0 20 10 2001
+Chepigo Daria 8317083 Lenina 4 0 9 6 2004
+Chepigo Dasha 6702221 Esimova 10 1 programmer vk
+Rud Maksim 1111 Pobeda 19 0 23 1 1997
+Abzah Ryan 89798 Sovetov 30 1 programmer mail.ru
+Ahmad Khalid 1234 Lenina 1 1 teacher university
+Vladislav Vlad 8317084 Lenina 4 0 15 2 1997
+Kostricki Aleksandar 6708222 Esimova 9 1 teacher university
+Orlenkov Petr 112 Pobeda 25 0 23 3 2002
+Mitrovic Olya 89891 Vostok 17 0 8 7 2001
+Lomovskoy Igor 9235 Izmailovski 75 1 teacher university
+Mussa_copy Ali 831708155 Lenina 4 0 9 9 1999  
+Piskunov_copy Pante 670822155 Izmailovski 7 1 programmer university
+Alakovic_copy Nebojsa 111555 Esimova 5 0 11 10 2000
+Piskunova_copy Nina 89898543 Pobeda 111 1 student university
+Koic_copy Dimitrije 9234543 Sovetov 23 0 12 10 2000
+Isaev_copy Diaz 3170822222 Vostok 24 0 13 3 2002
+Mansurow_copy Vlad 67082211221 Esimova 15 1 programmer mail.ru
+Mirzabekov_copy Ramis 11333 Izmailovski 74 1 student university
+Vagapov_copy Gleb 89098777 Sovetov 111 1 teacher school
+Orlenko_copy Anna 92147899 Vostok 17 0 7 10 2001
+Chepigo_copy Daria 83170839991 Lenina 4 0 9 6 2004
+Chepigo_copy Dasha 67022210023 Esimova 10 1 programmer vk
+Rud_copy Maksim 111166666 Pobeda 19 0 23 1 1997
+Abzah_copy Ryan 897981111 Sovetov 30 1 programmer mail.ru
+Ahmad_copy Khalid 12342222 Lenina 1 1 teacher university
+Vladislav_copy Vlad 83170840007 Lenina 4 0 15 2 1997
+Kostricki_copy Aleksandar 67082220007 Esimova 9 1 teacher university
+Orlenkov_copy Petr 1120007 Pobeda 25 0 23 3 2002
+Mitrovic_copy Olya 89891999001 Vostok 17 0 8 7 2001
+Lomovskoy_copy Igor 9235112009 Izmailovski 75 1 teacher university
+Mussa Ali 8317081 Lenina 4 1 student university  
+Piskunov Pante 6708221 Izmailovski 7 1 programmer university
+Alakovic Nebojsa 111 Esimova 5 0 17 10 2000
+Piskunova Nina 89898 Pobeda 111 1 student university
+Koic Dimitrije 9234 Sovetov 23 0 22 10 2000
+Isaev Diaz 317082 Vostok 24 0 18 3 2002
+Mansurow Vlad 670822 Esimova 15 1 programmer mail.ru
+Mirzabekov Ramis 11 Izmailovski 74 1 student university
+Vagapov Gleb 89098 Sovetov 111 1 teacher school
+Orlenko Anna 9214 Vostok 17 0 20 10 2001
+Chepigo Daria 8317083 Lenina 4 0 9 6 2004
+Chepigo Dasha 6702221 Esimova 10 1 programmer vk
+Rud Maksim 1111 Pobeda 19 0 23 1 1997
+Abzah Ryan 89798 Sovetov 30 1 programmer mail.ru
+Ahmad Khalid 1234 Lenina 1 1 teacher university
+Vladislav Vlad 8317084 Lenina 4 0 15 2 1997
+Kostricki Aleksandar 6708222 Esimova 9 1 teacher university
+Orlenkov Petr 112 Pobeda 25 0 23 3 2002
+Mitrovic Olya 89891 Vostok 17 0 8 7 2001
+Lomovskoy Igor 9235 Izmailovski 75 1 teacher university
+Mussa_copy Ali 831708155 Lenina 4 0 9 9 1999  
+Piskunov_copy Pante 670822155 Izmailovski 7 1 programmer university
+Alakovic_copy Nebojsa 111555 Esimova 5 0 11 10 2000
+Piskunova_copy Nina 89898543 Pobeda 111 1 student university
+Koic_copy Dimitrije 9234543 Sovetov 23 0 12 10 2000
+Isaev_copy Diaz 3170822222 Vostok 24 0 13 3 2002
+Mansurow_copy Vlad 67082211221 Esimova 15 1 programmer mail.ru
+Mirzabekov_copy Ramis 11333 Izmailovski 74 1 student university
+Vagapov_copy Gleb 89098777 Sovetov 111 1 teacher school
+Orlenko_copy Anna 92147899 Vostok 17 0 7 10 2001
+Chepigo_copy Daria 83170839991 Lenina 4 0 9 6 2004
+Chepigo_copy Dasha 67022210023 Esimova 10 1 programmer vk
+Rud_copy Maksim 111166666 Pobeda 19 0 23 1 1997
+Abzah_copy Ryan 897981111 Sovetov 30 1 programmer mail.ru
+Ahmad_copy Khalid 12342222 Lenina 1 1 teacher university
+Vladislav_copy Vlad 83170840007 Lenina 4 0 15 2 1997
+Kostricki_copy Aleksandar 67082220007 Esimova 9 1 teacher university
+Orlenkov_copy Petr 1120007 Pobeda 25 0 23 3 2002
+Mitrovic_copy Olya 89891999001 Vostok 17 0 8 7 2001
+Lomovskoy_copy Igor 9235112009 Izmailovski 75 1 teacher university
+Mussa Ali 8317081 Lenina 4 1 student university  
+Piskunov Pante 6708221 Izmailovski 7 1 programmer university
+Alakovic Nebojsa 111 Esimova 5 0 17 10 2000
+Piskunova Nina 89898 Pobeda 111 1 student university
+Koic Dimitrije 9234 Sovetov 23 0 22 10 2000
+Isaev Diaz 317082 Vostok 24 0 18 3 2002
+Mansurow Vlad 670822 Esimova 15 1 programmer mail.ru
+Mirzabekov Ramis 11 Izmailovski 74 1 student university
+Vagapov Gleb 89098 Sovetov 111 1 teacher school
+Orlenko Anna 9214 Vostok 17 0 20 10 2001
+Chepigo Daria 8317083 Lenina 4 0 9 6 2004
+Chepigo Dasha 6702221 Esimova 10 1 programmer vk
+Rud Maksim 1111 Pobeda 19 0 23 1 1997
+Abzah Ryan 89798 Sovetov 30 1 programmer mail.ru
+Ahmad Khalid 1234 Lenina 1 1 teacher university
+Vladislav Vlad 8317084 Lenina 4 0 15 2 1997
+Kostricki Aleksandar 6708222 Esimova 9 1 teacher university
+Orlenkov Petr 112 Pobeda 25 0 23 3 2002
+Mitrovic Olya 89891 Vostok 17 0 8 7 2001
+Lomovskoy Igor 9235 Izmailovski 75 1 teacher university
+Mussa Ali 8317081 Lenina 4 1 student university  
+Piskunov Pante 6708221 Izmailovski 7 1 programmer university
+Alakovic Nebojsa 111 Esimova 5 0 17 10 2000
+Piskunova Nina 89898 Pobeda 111 1 student university
+Koic Dimitrije 9234 Sovetov 23 0 22 10 2000
+Isaev Diaz 317082 Vostok 24 0 18 3 2002
+Mansurow Vlad 670822 Esimova 15 1 programmer mail.ru
+Mirzabekov Ramis 11 Izmailovski 74 1 student university
+Vagapov Gleb 89098 Sovetov 111 1 teacher school
+Orlenko Anna 9214 Vostok 17 0 20 10 2001
+Chepigo Daria 8317083 Lenina 4 0 9 6 2004
+Chepigo Dasha 6702221 Esimova 10 1 programmer vk
+Rud Maksim 1111 Pobeda 19 0 23 1 1997
+Abzah Ryan 89798 Sovetov 30 1 programmer mail.ru
+Ahmad Khalid 1234 Lenina 1 1 teacher university
+Vladislav Vlad 8317084 Lenina 4 0 15 2 1997
+Kostricki Aleksandar 6708222 Esimova 9 1 teacher university
+Orlenkov Petr 112 Pobeda 25 0 23 3 2002
+Mitrovic Olya 89891 Vostok 17 0 8 7 2001
+Lomovskoy Igor 9235 Izmailovski 75 1 teacher university
+Mussa_copy Ali 831708155 Lenina 4 0 9 9 1999  
+Piskunov_copy Pante 670822155 Izmailovski 7 1 programmer university
+Alakovic_copy Nebojsa 111555 Esimova 5 0 11 10 2000
+Piskunova_copy Nina 89898543 Pobeda 111 1 student university
+Koic_copy Dimitrije 9234543 Sovetov 23 0 12 10 2000
+Isaev_copy Diaz 3170822222 Vostok 24 0 13 3 2002
+Mansurow_copy Vlad 67082211221 Esimova 15 1 programmer mail.ru
+Mirzabekov_copy Ramis 11333 Izmailovski 74 1 student university
+Vagapov_copy Gleb 89098777 Sovetov 111 1 teacher school
+Orlenko_copy Anna 92147899 Vostok 17 0 7 10 2001
+Chepigo_copy Daria 83170839991 Lenina 4 0 9 6 2004
+Chepigo_copy Dasha 67022210023 Esimova 10 1 programmer vk
+Rud_copy Maksim 111166666 Pobeda 19 0 23 1 1997
+Abzah_copy Ryan 897981111 Sovetov 30 1 programmer mail.ru
+Ahmad_copy Khalid 12342222 Lenina 1 1 teacher university
+Vladislav_copy Vlad 83170840007 Lenina 4 0 15 2 1997
+Kostricki_copy Aleksandar 67082220007 Esimova 9 1 teacher university
+Orlenkov_copy Petr 1120007 Pobeda 25 0 23 3 2002
+Mitrovic_copy Olya 89891999001 Vostok 17 0 8 7 2001
+Lomovskoy_copy Igor 9235112009 Izmailovski 75 1 teacher university
+Mussa Ali 8317081 Lenina 4 1 student university  
+Piskunov Pante 6708221 Izmailovski 7 1 programmer university
+Alakovic Nebojsa 111 Esimova 5 0 17 10 2000
+Piskunova Nina 89898 Pobeda 111 1 student university
+Koic Dimitrije 9234 Sovetov 23 0 22 10 2000
+Isaev Diaz 317082 Vostok 24 0 18 3 2002
+Mansurow Vlad 670822 Esimova 15 1 programmer mail.ru
+Mirzabekov Ramis 11 Izmailovski 74 1 student university
+Vagapov Gleb 89098 Sovetov 111 1 teacher school
+Orlenko Anna 9214 Vostok 17 0 20 10 2001
+Chepigo Daria 8317083 Lenina 4 0 9 6 2004
+Chepigo Dasha 6702221 Esimova 10 1 programmer vk
+Rud Maksim 1111 Pobeda 19 0 23 1 1997
+Abzah Ryan 89798 Sovetov 30 1 programmer mail.ru
+Ahmad Khalid 1234 Lenina 1 1 teacher university
+Vladislav Vlad 8317084 Lenina 4 0 15 2 1997
+Kostricki Aleksandar 6708222 Esimova 9 1 teacher university
+Orlenkov Petr 112 Pobeda 25 0 23 3 2002
+Mitrovic Olya 89891 Vostok 17 0 8 7 2001
+Lomovskoy Igor 9235 Izmailovski 75 1 teacher university
+Mussa_copy Ali 831708155 Lenina 4 0 9 9 1999  
+Piskunov_copy Pante 670822155 Izmailovski 7 1 programmer university
+Alakovic_copy Nebojsa 111555 Esimova 5 0 11 10 2000
+Piskunova_copy Nina 89898543 Pobeda 111 1 student university
+Koic_copy Dimitrije 9234543 Sovetov 23 0 12 10 2000
+Isaev_copy Diaz 3170822222 Vostok 24 0 13 3 2002
+Mansurow_copy Vlad 67082211221 Esimova 15 1 programmer mail.ru
+Mirzabekov_copy Ramis 11333 Izmailovski 74 1 student university
+Vagapov_copy Gleb 89098777 Sovetov 111 1 teacher school
+Orlenko_copy Anna 92147899 Vostok 17 0 7 10 2001
+Chepigo_copy Daria 83170839991 Lenina 4 0 9 6 2004
+Chepigo_copy Dasha 67022210023 Esimova 10 1 programmer vk
+Rud_copy Maksim 111166666 Pobeda 19 0 23 1 1997
+Abzah_copy Ryan 897981111 Sovetov 30 1 programmer mail.ru
+Ahmad_copy Khalid 12342222 Lenina 1 1 teacher university
+Vladislav_copy Vlad 83170840007 Lenina 4 0 15 2 1997
+Kostricki_copy Aleksandar 67082220007 Esimova 9 1 teacher university
+Orlenkov_copy Petr 1120007 Pobeda 25 0 23 3 2002
+Mitrovic_copy Olya 89891999001 Vostok 17 0 8 7 2001
+Lomovskoy_copy Igor 9235112009 Izmailovski 75 1 teacher university
+Mussa Ali 8317081 Lenina 4 1 student university  
+Piskunov Pante 6708221 Izmailovski 7 1 programmer university
+Alakovic Nebojsa 111 Esimova 5 0 17 10 2000
+Piskunova Nina 89898 Pobeda 111 1 student university
+Koic Dimitrije 9234 Sovetov 23 0 22 10 2000
+Isaev Diaz 317082 Vostok 24 0 18 3 2002
+Mansurow Vlad 670822 Esimova 15 1 programmer mail.ru
+Mirzabekov Ramis 11 Izmailovski 74 1 student university
+Vagapov Gleb 89098 Sovetov 111 1 teacher school
+Orlenko Anna 9214 Vostok 17 0 20 10 2001
+Chepigo Daria 8317083 Lenina 4 0 9 6 2004
+Chepigo Dasha 6702221 Esimova 10 1 programmer vk
+Rud Maksim 1111 Pobeda 19 0 23 1 1997
+Abzah Ryan 89798 Sovetov 30 1 programmer mail.ru
+Ahmad Khalid 1234 Lenina 1 1 teacher university
+Vladislav Vlad 8317084 Lenina 4 0 15 2 1997
+Kostricki Aleksandar 6708222 Esimova 9 1 teacher university
+Orlenkov Petr 112 Pobeda 25 0 23 3 2002
+Mitrovic Olya 89891 Vostok 17 0 8 7 2001
+Lomovskoy Igor 9235 Izmailovski 75 1 teacher university
+Mussa Ali 8317081 Lenina 4 1 student university  
+Piskunov Pante 6708221 Izmailovski 7 1 programmer university
+Alakovic Nebojsa 111 Esimova 5 0 17 10 2000
+Piskunova Nina 89898 Pobeda 111 1 student university
+Koic Dimitrije 9234 Sovetov 23 0 22 10 2000
+Isaev Diaz 317082 Vostok 24 0 18 3 2002
+Mansurow Vlad 670822 Esimova 15 1 programmer mail.ru
+Mirzabekov Ramis 11 Izmailovski 74 1 student university
+Vagapov Gleb 89098 Sovetov 111 1 teacher school
+Orlenko Anna 9214 Vostok 17 0 20 10 2001
+Chepigo Daria 8317083 Lenina 4 0 9 6 2004
+Chepigo Dasha 6702221 Esimova 10 1 programmer vk
+Rud Maksim 1111 Pobeda 19 0 23 1 1997
+Abzah Ryan 89798 Sovetov 30 1 programmer mail.ru
+Ahmad Khalid 1234 Lenina 1 1 teacher university
+Vladislav Vlad 8317084 Lenina 4 0 15 2 1997
+Kostricki Aleksandar 6708222 Esimova 9 1 teacher university
+Orlenkov Petr 112 Pobeda 25 0 23 3 2002
+Mitrovic Olya 89891 Vostok 17 0 8 7 2001
+Lomovskoy Igor 9235 Izmailovski 75 1 teacher university
+Mussa_copy Ali 831708155 Lenina 4 0 9 9 1999  
+Piskunov_copy Pante 670822155 Izmailovski 7 1 programmer university
+Alakovic_copy Nebojsa 111555 Esimova 5 0 11 10 2000
+Piskunova_copy Nina 89898543 Pobeda 111 1 student university
+Koic_copy Dimitrije 9234543 Sovetov 23 0 12 10 2000
+Isaev_copy Diaz 3170822222 Vostok 24 0 13 3 2002
+Mansurow_copy Vlad 67082211221 Esimova 15 1 programmer mail.ru
+Mirzabekov_copy Ramis 11333 Izmailovski 74 1 student university
+Vagapov_copy Gleb 89098777 Sovetov 111 1 teacher school
+Orlenko_copy Anna 92147899 Vostok 17 0 7 10 2001
+Chepigo_copy Daria 83170839991 Lenina 4 0 9 6 2004
+Chepigo_copy Dasha 67022210023 Esimova 10 1 programmer vk
+Rud_copy Maksim 111166666 Pobeda 19 0 23 1 1997
+Abzah_copy Ryan 897981111 Sovetov 30 1 programmer mail.ru
+Ahmad_copy Khalid 12342222 Lenina 1 1 teacher university
+Vladislav_copy Vlad 83170840007 Lenina 4 0 15 2 1997
+Kostricki_copy Aleksandar 67082220007 Esimova 9 1 teacher university
+Orlenkov_copy Petr 1120007 Pobeda 25 0 23 3 2002
+Mitrovic_copy Olya 89891999001 Vostok 17 0 8 7 2001
+Lomovskoy_copy Igor 9235112009 Izmailovski 75 1 teacher university
+Mussa Ali 8317081 Lenina 4 1 student university  
+Piskunov Pante 6708221 Izmailovski 7 1 programmer university
+Alakovic Nebojsa 111 Esimova 5 0 17 10 2000
+Piskunova Nina 89898 Pobeda 111 1 student university
+Koic Dimitrije 9234 Sovetov 23 0 22 10 2000
+Isaev Diaz 317082 Vostok 24 0 18 3 2002
+Mansurow Vlad 670822 Esimova 15 1 programmer mail.ru
+Mirzabekov Ramis 11 Izmailovski 74 1 student university
+Vagapov Gleb 89098 Sovetov 111 1 teacher school
+Orlenko Anna 9214 Vostok 17 0 20 10 2001
+Chepigo Daria 8317083 Lenina 4 0 9 6 2004
+Chepigo Dasha 6702221 Esimova 10 1 programmer vk
+Rud Maksim 1111 Pobeda 19 0 23 1 1997
+Abzah Ryan 89798 Sovetov 30 1 programmer mail.ru
+Ahmad Khalid 1234 Lenina 1 1 teacher university
+Vladislav Vlad 8317084 Lenina 4 0 15 2 1997
+Kostricki Aleksandar 6708222 Esimova 9 1 teacher university
+Orlenkov Petr 112 Pobeda 25 0 23 3 2002
+Mitrovic Olya 89891 Vostok 17 0 8 7 2001
+Lomovskoy Igor 9235 Izmailovski 75 1 teacher university
+Mussa_copy Ali 831708155 Lenina 4 0 9 9 1999  
+Piskunov_copy Pante 670822155 Izmailovski 7 1 programmer university
+Alakovic_copy Nebojsa 111555 Esimova 5 0 11 10 2000
+Piskunova_copy Nina 89898543 Pobeda 111 1 student university
+Koic_copy Dimitrije 9234543 Sovetov 23 0 12 10 2000
+Isaev_copy Diaz 3170822222 Vostok 24 0 13 3 2002
+Mansurow_copy Vlad 67082211221 Esimova 15 1 programmer mail.ru
+Mirzabekov_copy Ramis 11333 Izmailovski 74 1 student university
+Vagapov_copy Gleb 89098777 Sovetov 111 1 teacher school
+Orlenko_copy Anna 92147899 Vostok 17 0 7 10 2001
+Chepigo_copy Daria 83170839991 Lenina 4 0 9 6 2004
+Chepigo_copy Dasha 67022210023 Esimova 10 1 programmer vk
+Rud_copy Maksim 111166666 Pobeda 19 0 23 1 1997
+Abzah_copy Ryan 897981111 Sovetov 30 1 programmer mail.ru
+Ahmad_copy Khalid 12342222 Lenina 1 1 teacher university
+Vladislav_copy Vlad 83170840007 Lenina 4 0 15 2 1997
+Kostricki_copy Aleksandar 67082220007 Esimova 9 1 teacher university
+Orlenkov_copy Petr 1120007 Pobeda 25 0 23 3 2002
+Mitrovic_copy Olya 89891999001 Vostok 17 0 8 7 2001
+Lomovskoy_copy Igor 9235112009 Izmailovski 75 1 teacher university
+Mussa Ali 8317081 Lenina 4 1 student university  
+Piskunov Pante 6708221 Izmailovski 7 1 programmer university
+Alakovic Nebojsa 111 Esimova 5 0 17 10 2000
+Piskunova Nina 89898 Pobeda 111 1 student university
+Koic Dimitrije 9234 Sovetov 23 0 22 10 2000
+Isaev Diaz 317082 Vostok 24 0 18 3 2002
+Mansurow Vlad 670822 Esimova 15 1 programmer mail.ru
+Mirzabekov Ramis 11 Izmailovski 74 1 student university
+Vagapov Gleb 89098 Sovetov 111 1 teacher school
+Orlenko Anna 9214 Vostok 17 0 20 10 2001
+Chepigo Daria 8317083 Lenina 4 0 9 6 2004
+Chepigo Dasha 6702221 Esimova 10 1 programmer vk
+Rud Maksim 1111 Pobeda 19 0 23 1 1997
+Abzah Ryan 89798 Sovetov 30 1 programmer mail.ru
+Ahmad Khalid 1234 Lenina 1 1 teacher university
+Vladislav Vlad 8317084 Lenina 4 0 15 2 1997
+Kostricki Aleksandar 6708222 Esimova 9 1 teacher university
+Orlenkov Petr 112 Pobeda 25 0 23 3 2002
+Mitrovic Olya 89891 Vostok 17 0 8 7 2001
+Lomovskoy Igor 9235 Izmailovski 75 1 teacher university
+Mussa Ali 8317081 Lenina 4 1 student university  
+Piskunov Pante 6708221 Izmailovski 7 1 programmer university
+Alakovic Nebojsa 111 Esimova 5 0 17 10 2000
+Piskunova Nina 89898 Pobeda 111 1 student university
+Koic Dimitrije 9234 Sovetov 23 0 22 10 2000
+Isaev Diaz 317082 Vostok 24 0 18 3 2002
+Mansurow Vlad 670822 Esimova 15 1 programmer mail.ru
+Mirzabekov Ramis 11 Izmailovski 74 1 student university
+Vagapov Gleb 89098 Sovetov 111 1 teacher school
+Orlenko Anna 9214 Vostok 17 0 20 10 2001
+Chepigo Daria 8317083 Lenina 4 0 9 6 2004
+Chepigo Dasha 6702221 Esimova 10 1 programmer vk
+Rud Maksim 1111 Pobeda 19 0 23 1 1997
+Abzah Ryan 89798 Sovetov 30 1 programmer mail.ru
+Ahmad Khalid 1234 Lenina 1 1 teacher university
+Vladislav Vlad 8317084 Lenina 4 0 15 2 1997
+Kostricki Aleksandar 6708222 Esimova 9 1 teacher university
+Orlenkov Petr 112 Pobeda 25 0 23 3 2002
+Mitrovic Olya 89891 Vostok 17 0 8 7 2001
+Lomovskoy Igor 9235 Izmailovski 75 1 teacher university
+Mussa_copy Ali 831708155 Lenina 4 0 9 9 1999  
+Piskunov_copy Pante 670822155 Izmailovski 7 1 programmer university
+Alakovic_copy Nebojsa 111555 Esimova 5 0 11 10 2000
+Piskunova_copy Nina 89898543 Pobeda 111 1 student university
+Koic_copy Dimitrije 9234543 Sovetov 23 0 12 10 2000
+Isaev_copy Diaz 3170822222 Vostok 24 0 13 3 2002
+Mansurow_copy Vlad 67082211221 Esimova 15 1 programmer mail.ru
+Mirzabekov_copy Ramis 11333 Izmailovski 74 1 student university
+Vagapov_copy Gleb 89098777 Sovetov 111 1 teacher school
+Orlenko_copy Anna 92147899 Vostok 17 0 7 10 2001
+Chepigo_copy Daria 83170839991 Lenina 4 0 9 6 2004
+Chepigo_copy Dasha 67022210023 Esimova 10 1 programmer vk
+Rud_copy Maksim 111166666 Pobeda 19 0 23 1 1997
+Abzah_copy Ryan 897981111 Sovetov 30 1 programmer mail.ru
+Ahmad_copy Khalid 12342222 Lenina 1 1 teacher university
+Vladislav_copy Vlad 83170840007 Lenina 4 0 15 2 1997
+Kostricki_copy Aleksandar 67082220007 Esimova 9 1 teacher university
+Orlenkov_copy Petr 1120007 Pobeda 25 0 23 3 2002
+Mitrovic_copy Olya 89891999001 Vostok 17 0 8 7 2001
+Lomovskoy_copy Igor 9235112009 Izmailovski 75 1 teacher university
+Mussa Ali 8317081 Lenina 4 1 student university  
+Piskunov Pante 6708221 Izmailovski 7 1 programmer university
+Alakovic Nebojsa 111 Esimova 5 0 17 10 2000
+Piskunova Nina 89898 Pobeda 111 1 student university
+Koic Dimitrije 9234 Sovetov 23 0 22 10 2000
+Isaev Diaz 317082 Vostok 24 0 18 3 2002
+Mansurow Vlad 670822 Esimova 15 1 programmer mail.ru
+Mirzabekov Ramis 11 Izmailovski 74 1 student university
+Vagapov Gleb 89098 Sovetov 111 1 teacher school
+Orlenko Anna 9214 Vostok 17 0 20 10 2001
+Chepigo Daria 8317083 Lenina 4 0 9 6 2004
+Chepigo Dasha 6702221 Esimova 10 1 programmer vk
+Rud Maksim 1111 Pobeda 19 0 23 1 1997
+Abzah Ryan 89798 Sovetov 30 1 programmer mail.ru
+Ahmad Khalid 1234 Lenina 1 1 teacher university
+Vladislav Vlad 8317084 Lenina 4 0 15 2 1997
+Kostricki Aleksandar 6708222 Esimova 9 1 teacher university
+Orlenkov Petr 112 Pobeda 25 0 23 3 2002
+Mitrovic Olya 89891 Vostok 17 0 8 7 2001
+Lomovskoy Igor 9235 Izmailovski 75 1 teacher university
+Mussa_copy Ali 831708155 Lenina 4 0 9 9 1999  
+Piskunov_copy Pante 670822155 Izmailovski 7 1 programmer university
+Alakovic_copy Nebojsa 111555 Esimova 5 0 11 10 2000
+Piskunova_copy Nina 89898543 Pobeda 111 1 student university
+Koic_copy Dimitrije 9234543 Sovetov 23 0 12 10 2000
+Isaev_copy Diaz 3170822222 Vostok 24 0 13 3 2002
+Mansurow_copy Vlad 67082211221 Esimova 15 1 programmer mail.ru
+Mirzabekov_copy Ramis 11333 Izmailovski 74 1 student university
+Vagapov_copy Gleb 89098777 Sovetov 111 1 teacher school
+Orlenko_copy Anna 92147899 Vostok 17 0 7 10 2001
+Chepigo_copy Daria 83170839991 Lenina 4 0 9 6 2004
+Chepigo_copy Dasha 67022210023 Esimova 10 1 programmer vk
+Rud_copy Maksim 111166666 Pobeda 19 0 23 1 1997
+Abzah_copy Ryan 897981111 Sovetov 30 1 programmer mail.ru
+Ahmad_copy Khalid 12342222 Lenina 1 1 teacher university
+Vladislav_copy Vlad 83170840007 Lenina 4 0 15 2 1997
+Kostricki_copy Aleksandar 67082220007 Esimova 9 1 teacher university
+Orlenkov_copy Petr 1120007 Pobeda 25 0 23 3 2002
+Mitrovic_copy Olya 89891999001 Vostok 17 0 8 7 2001
+Lomovskoy_copy Igor 9235112009 Izmailovski 75 1 teacher university
+Mussa Ali 8317081 Lenina 4 1 student university  
+Piskunov Pante 6708221 Izmailovski 7 1 programmer university
+Alakovic Nebojsa 111 Esimova 5 0 17 10 2000
+Piskunova Nina 89898 Pobeda 111 1 student university
+Koic Dimitrije 9234 Sovetov 23 0 22 10 2000
+Isaev Diaz 317082 Vostok 24 0 18 3 2002
+Mansurow Vlad 670822 Esimova 15 1 programmer mail.ru
+Mirzabekov Ramis 11 Izmailovski 74 1 student university
+Vagapov Gleb 89098 Sovetov 111 1 teacher school
+Orlenko Anna 9214 Vostok 17 0 20 10 2001
+Chepigo Daria 8317083 Lenina 4 0 9 6 2004
+Chepigo Dasha 6702221 Esimova 10 1 programmer vk
+Rud Maksim 1111 Pobeda 19 0 23 1 1997
+Abzah Ryan 89798 Sovetov 30 1 programmer mail.ru
+Ahmad Khalid 1234 Lenina 1 1 teacher university
+Vladislav Vlad 8317084 Lenina 4 0 15 2 1997
+Kostricki Aleksandar 6708222 Esimova 9 1 teacher university
+Orlenkov Petr 112 Pobeda 25 0 23 3 2002
+Mitrovic Olya 89891 Vostok 17 0 8 7 2001
+Lomovskoy Igor 9235 Izmailovski 75 1 teacher university
+Mussa Ali 8317081 Lenina 4 1 student university  
+Piskunov Pante 6708221 Izmailovski 7 1 programmer university
+Alakovic Nebojsa 111 Esimova 5 0 17 10 2000
+Piskunova Nina 89898 Pobeda 111 1 student university
+Koic Dimitrije 9234 Sovetov 23 0 22 10 2000
+Isaev Diaz 317082 Vostok 24 0 18 3 2002
+Mansurow Vlad 670822 Esimova 15 1 programmer mail.ru
+Mirzabekov Ramis 11 Izmailovski 74 1 student university
+Vagapov Gleb 89098 Sovetov 111 1 teacher school
+Orlenko Anna 9214 Vostok 17 0 20 10 2001
+Chepigo Daria 8317083 Lenina 4 0 9 6 2004
+Chepigo Dasha 6702221 Esimova 10 1 programmer vk
+Rud Maksim 1111 Pobeda 19 0 23 1 1997
+Abzah Ryan 89798 Sovetov 30 1 programmer mail.ru
+Ahmad Khalid 1234 Lenina 1 1 teacher university
+Vladislav Vlad 8317084 Lenina 4 0 15 2 1997
+Kostricki Aleksandar 6708222 Esimova 9 1 teacher university
+Orlenkov Petr 112 Pobeda 25 0 23 3 2002
+Mitrovic Olya 89891 Vostok 17 0 8 7 2001
+Lomovskoy Igor 9235 Izmailovski 75 1 teacher university
+Mussa_copy Ali 831708155 Lenina 4 0 9 9 1999  
+Piskunov_copy Pante 670822155 Izmailovski 7 1 programmer university
+Alakovic_copy Nebojsa 111555 Esimova 5 0 11 10 2000
+Piskunova_copy Nina 89898543 Pobeda 111 1 student university
+Koic_copy Dimitrije 9234543 Sovetov 23 0 12 10 2000
+Isaev_copy Diaz 3170822222 Vostok 24 0 13 3 2002
+Mansurow_copy Vlad 67082211221 Esimova 15 1 programmer mail.ru
+Mirzabekov_copy Ramis 11333 Izmailovski 74 1 student university
+Vagapov_copy Gleb 89098777 Sovetov 111 1 teacher school
+Orlenko_copy Anna 92147899 Vostok 17 0 7 10 2001
+Chepigo_copy Daria 83170839991 Lenina 4 0 9 6 2004
+Chepigo_copy Dasha 67022210023 Esimova 10 1 programmer vk
+Rud_copy Maksim 111166666 Pobeda 19 0 23 1 1997
+Abzah_copy Ryan 897981111 Sovetov 30 1 programmer mail.ru
+Ahmad_copy Khalid 12342222 Lenina 1 1 teacher university
+Vladislav_copy Vlad 83170840007 Lenina 4 0 15 2 1997
+Kostricki_copy Aleksandar 67082220007 Esimova 9 1 teacher university
+Orlenkov_copy Petr 1120007 Pobeda 25 0 23 3 2002
+Mitrovic_copy Olya 89891999001 Vostok 17 0 8 7 2001
+Lomovskoy_copy Igor 9235112009 Izmailovski 75 1 teacher university
+Mussa Ali 8317081 Lenina 4 1 student university  
+Piskunov Pante 6708221 Izmailovski 7 1 programmer university
+Alakovic Nebojsa 111 Esimova 5 0 17 10 2000
+Piskunova Nina 89898 Pobeda 111 1 student university
+Koic Dimitrije 9234 Sovetov 23 0 22 10 2000
+Isaev Diaz 317082 Vostok 24 0 18 3 2002
+Mansurow Vlad 670822 Esimova 15 1 programmer mail.ru
+Mirzabekov Ramis 11 Izmailovski 74 1 student university
+Vagapov Gleb 89098 Sovetov 111 1 teacher school
+Orlenko Anna 9214 Vostok 17 0 20 10 2001
+Chepigo Daria 8317083 Lenina 4 0 9 6 2004
+Chepigo Dasha 6702221 Esimova 10 1 programmer vk
+Rud Maksim 1111 Pobeda 19 0 23 1 1997
+Abzah Ryan 89798 Sovetov 30 1 programmer mail.ru
+Ahmad Khalid 1234 Lenina 1 1 teacher university
+Vladislav Vlad 8317084 Lenina 4 0 15 2 1997
+Kostricki Aleksandar 6708222 Esimova 9 1 teacher university
+Orlenkov Petr 112 Pobeda 25 0 23 3 2002
+Mitrovic Olya 89891 Vostok 17 0 8 7 2001
+Lomovskoy Igor 9235 Izmailovski 75 1 teacher university
+Mussa_copy Ali 831708155 Lenina 4 0 9 9 1999  
+Piskunov_copy Pante 670822155 Izmailovski 7 1 programmer university
+Alakovic_copy Nebojsa 111555 Esimova 5 0 11 10 2000
+Piskunova_copy Nina 89898543 Pobeda 111 1 student university
+Koic_copy Dimitrije 9234543 Sovetov 23 0 12 10 2000
+Isaev_copy Diaz 3170822222 Vostok 24 0 13 3 2002
+Mansurow_copy Vlad 67082211221 Esimova 15 1 programmer mail.ru
+Mirzabekov_copy Ramis 11333 Izmailovski 74 1 student university
+Vagapov_copy Gleb 89098777 Sovetov 111 1 teacher school
+Orlenko_copy Anna 92147899 Vostok 17 0 7 10 2001
+Chepigo_copy Daria 83170839991 Lenina 4 0 9 6 2004
+Chepigo_copy Dasha 67022210023 Esimova 10 1 programmer vk
+Rud_copy Maksim 111166666 Pobeda 19 0 23 1 1997
+Abzah_copy Ryan 897981111 Sovetov 30 1 programmer mail.ru
+Ahmad_copy Khalid 12342222 Lenina 1 1 teacher university
+Vladislav_copy Vlad 83170840007 Lenina 4 0 15 2 1997
+Kostricki_copy Aleksandar 67082220007 Esimova 9 1 teacher university
+Orlenkov_copy Petr 1120007 Pobeda 25 0 23 3 2002
+Mitrovic_copy Olya 89891999001 Vostok 17 0 8 7 2001
+Lomovskoy_copy Igor 9235112009 Izmailovski 75 1 teacher university
+Mussa Ali 8317081 Lenina 4 1 student university  
+Piskunov Pante 6708221 Izmailovski 7 1 programmer university
+Alakovic Nebojsa 111 Esimova 5 0 17 10 2000
+Piskunova Nina 89898 Pobeda 111 1 student university
+Koic Dimitrije 9234 Sovetov 23 0 22 10 2000
+Isaev Diaz 317082 Vostok 24 0 18 3 2002
+Mansurow Vlad 670822 Esimova 15 1 programmer mail.ru
+Mirzabekov Ramis 11 Izmailovski 74 1 student university
+Vagapov Gleb 89098 Sovetov 111 1 teacher school
+Orlenko Anna 9214 Vostok 17 0 20 10 2001
+Chepigo Daria 8317083 Lenina 4 0 9 6 2004
+Chepigo Dasha 6702221 Esimova 10 1 programmer vk
+Rud Maksim 1111 Pobeda 19 0 23 1 1997
+Abzah Ryan 89798 Sovetov 30 1 programmer mail.ru
+Ahmad Khalid 1234 Lenina 1 1 teacher university
+Vladislav Vlad 8317084 Lenina 4 0 15 2 1997
+Kostricki Aleksandar 6708222 Esimova 9 1 teacher university
+Orlenkov Petr 112 Pobeda 25 0 23 3 2002
+Mitrovic Olya 89891 Vostok 17 0 8 7 2001
+Lomovskoy Igor 9235 Izmailovski 75 1 teacher university
+Mussa Ali 8317081 Lenina 4 1 student university  
+Piskunov Pante 6708221 Izmailovski 7 1 programmer university
+Alakovic Nebojsa 111 Esimova 5 0 17 10 2000
+Piskunova Nina 89898 Pobeda 111 1 student university
+Koic Dimitrije 9234 Sovetov 23 0 22 10 2000
+Isaev Diaz 317082 Vostok 24 0 18 3 2002
+Mansurow Vlad 670822 Esimova 15 1 programmer mail.ru
+Mirzabekov Ramis 11 Izmailovski 74 1 student university
+Vagapov Gleb 89098 Sovetov 111 1 teacher school
+Orlenko Anna 9214 Vostok 17 0 20 10 2001
+Chepigo Daria 8317083 Lenina 4 0 9 6 2004
+Chepigo Dasha 6702221 Esimova 10 1 programmer vk
+Rud Maksim 1111 Pobeda 19 0 23 1 1997
+Abzah Ryan 89798 Sovetov 30 1 programmer mail.ru
+Ahmad Khalid 1234 Lenina 1 1 teacher university
+Vladislav Vlad 8317084 Lenina 4 0 15 2 1997
+Kostricki Aleksandar 6708222 Esimova 9 1 teacher university
+Orlenkov Petr 112 Pobeda 25 0 23 3 2002
+Mitrovic Olya 89891 Vostok 17 0 8 7 2001
+Lomovskoy Igor 9235 Izmailovski 75 1 teacher university
+Mussa_copy Ali 831708155 Lenina 4 0 9 9 1999  
+Piskunov_copy Pante 670822155 Izmailovski 7 1 programmer university
+Alakovic_copy Nebojsa 111555 Esimova 5 0 11 10 2000
+Piskunova_copy Nina 89898543 Pobeda 111 1 student university
+Koic_copy Dimitrije 9234543 Sovetov 23 0 12 10 2000
+Isaev_copy Diaz 3170822222 Vostok 24 0 13 3 2002
+Mansurow_copy Vlad 67082211221 Esimova 15 1 programmer mail.ru
+Mirzabekov_copy Ramis 11333 Izmailovski 74 1 student university
+Vagapov_copy Gleb 89098777 Sovetov 111 1 teacher school
+Orlenko_copy Anna 92147899 Vostok 17 0 7 10 2001
+Chepigo_copy Daria 83170839991 Lenina 4 0 9 6 2004
+Chepigo_copy Dasha 67022210023 Esimova 10 1 programmer vk
+Rud_copy Maksim 111166666 Pobeda 19 0 23 1 1997
+Abzah_copy Ryan 897981111 Sovetov 30 1 programmer mail.ru
+Ahmad_copy Khalid 12342222 Lenina 1 1 teacher university
+Vladislav_copy Vlad 83170840007 Lenina 4 0 15 2 1997
+Kostricki_copy Aleksandar 67082220007 Esimova 9 1 teacher university
+Orlenkov_copy Petr 1120007 Pobeda 25 0 23 3 2002
+Mitrovic_copy Olya 89891999001 Vostok 17 0 8 7 2001
+Lomovskoy_copy Igor 9235112009 Izmailovski 75 1 teacher university
+Mussa Ali 8317081 Lenina 4 1 student university  
+Piskunov Pante 6708221 Izmailovski 7 1 programmer university
+Alakovic Nebojsa 111 Esimova 5 0 17 10 2000
+Piskunova Nina 89898 Pobeda 111 1 student university
+Koic Dimitrije 9234 Sovetov 23 0 22 10 2000
+Isaev Diaz 317082 Vostok 24 0 18 3 2002
+Mansurow Vlad 670822 Esimova 15 1 programmer mail.ru
+Mirzabekov Ramis 11 Izmailovski 74 1 student university
+Vagapov Gleb 89098 Sovetov 111 1 teacher school
+Orlenko Anna 9214 Vostok 17 0 20 10 2001
+Chepigo Daria 8317083 Lenina 4 0 9 6 2004
+Chepigo Dasha 6702221 Esimova 10 1 programmer vk
+Rud Maksim 1111 Pobeda 19 0 23 1 1997
+Abzah Ryan 89798 Sovetov 30 1 programmer mail.ru
+Ahmad Khalid 1234 Lenina 1 1 teacher university
+Vladislav Vlad 8317084 Lenina 4 0 15 2 1997
+Kostricki Aleksandar 6708222 Esimova 9 1 teacher university
+Orlenkov Petr 112 Pobeda 25 0 23 3 2002
+Mitrovic Olya 89891 Vostok 17 0 8 7 2001
+Lomovskoy Igor 9235 Izmailovski 75 1 teacher university
+Mussa_copy Ali 831708155 Lenina 4 0 9 9 1999  
+Piskunov_copy Pante 670822155 Izmailovski 7 1 programmer university
+Alakovic_copy Nebojsa 111555 Esimova 5 0 11 10 2000
+Piskunova_copy Nina 89898543 Pobeda 111 1 student university
+Koic_copy Dimitrije 9234543 Sovetov 23 0 12 10 2000
+Isaev_copy Diaz 3170822222 Vostok 24 0 13 3 2002
+Mansurow_copy Vlad 67082211221 Esimova 15 1 programmer mail.ru
+Mirzabekov_copy Ramis 11333 Izmailovski 74 1 student university
+Vagapov_copy Gleb 89098777 Sovetov 111 1 teacher school
+Orlenko_copy Anna 92147899 Vostok 17 0 7 10 2001
+Chepigo_copy Daria 83170839991 Lenina 4 0 9 6 2004
+Chepigo_copy Dasha 67022210023 Esimova 10 1 programmer vk
+Rud_copy Maksim 111166666 Pobeda 19 0 23 1 1997
+Abzah_copy Ryan 897981111 Sovetov 30 1 programmer mail.ru
+Ahmad_copy Khalid 12342222 Lenina 1 1 teacher university
+Vladislav_copy Vlad 83170840007 Lenina 4 0 15 2 1997
+Kostricki_copy Aleksandar 67082220007 Esimova 9 1 teacher university
+Orlenkov_copy Petr 1120007 Pobeda 25 0 23 3 2002
+Mitrovic_copy Olya 89891999001 Vostok 17 0 8 7 2001
+Lomovskoy_copy Igor 9235112009 Izmailovski 75 1 teacher university
+Mussa Ali 8317081 Lenina 4 1 student university  
+Piskunov Pante 6708221 Izmailovski 7 1 programmer university
+Alakovic Nebojsa 111 Esimova 5 0 17 10 2000
+Piskunova Nina 89898 Pobeda 111 1 student university
+Koic Dimitrije 9234 Sovetov 23 0 22 10 2000
+Isaev Diaz 317082 Vostok 24 0 18 3 2002
+Mansurow Vlad 670822 Esimova 15 1 programmer mail.ru
+Mirzabekov Ramis 11 Izmailovski 74 1 student university
+Vagapov Gleb 89098 Sovetov 111 1 teacher school
+Orlenko Anna 9214 Vostok 17 0 20 10 2001
+Chepigo Daria 8317083 Lenina 4 0 9 6 2004
+Chepigo Dasha 6702221 Esimova 10 1 programmer vk
+Rud Maksim 1111 Pobeda 19 0 23 1 1997
+Abzah Ryan 89798 Sovetov 30 1 programmer mail.ru
+Ahmad Khalid 1234 Lenina 1 1 teacher university
+Vladislav Vlad 8317084 Lenina 4 0 15 2 1997
+Kostricki Aleksandar 6708222 Esimova 9 1 teacher university
+Orlenkov Petr 112 Pobeda 25 0 23 3 2002
+Mitrovic Olya 89891 Vostok 17 0 8 7 2001
+Lomovskoy Igor 9235 Izmailovski 75 1 teacher university

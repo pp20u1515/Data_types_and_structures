@@ -1,0 +1,10 @@
+#ifndef RETURN_CODES_H
+#define RETURN_CODES_H
+
+#define OK 0
+#define IO_ERROR 1
+#define EMPTY_MATRIX_ERROR 2
+#define MENU_NUMBER_ERROR 3
+#define MATRIX_GENERATE_ERROR 4
+
+#endif // RETURN_CODES_H

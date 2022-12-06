@@ -1,5 +1,11 @@
-digraph tree {
+digraph painted_tree {
+{
+	da [style=filled, fillcolor=brown1]
+}
 da -> aa;
+{
+	dd [style=filled, fillcolor=brown1]
+}
 da -> dd;
 dd -> vxcvxc;
 vxcvxc -> ghj;
