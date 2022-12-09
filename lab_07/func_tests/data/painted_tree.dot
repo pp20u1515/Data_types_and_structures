@@ -1,0 +1,23 @@
+digraph painted_tree {
+{
+	da [style=filled, fillcolor=brown1]
+}
+da -> aa;
+{
+	dd [style=filled, fillcolor=brown1]
+}
+da -> dd;
+dd -> vxcvxc;
+vxcvxc -> ghj;
+ghj -> gfhfg;
+ghj -> ui;
+ui -> hjk;
+ui -> uiouiouio;
+uiouiouio -> uiou;
+uiouiouio -> uiouiouiou;
+hjk -> oipiopiopi;
+aa -> asd;
+asd -> asbbbm;
+asd -> asdasd;
+asdasd -> bnmbnmbmbn;
+}

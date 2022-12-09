@@ -5,19 +5,24 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
-#include <stdio.h>
 
 #define NO_WORD 0
 #define WORD_EXIST 1
 #define STR_BUFF 501
 
-tree_node_t *create_node(const char *name)
+tree_node_t *create_node(const char *name, const size_t amount_words)
 {
     tree_node_t *node = malloc(sizeof(tree_node_t));
-
+    char *node_name = "__";
+    char num[STR_BUFF];
+    
+    snprintf(num, amount_words + 1, "%d", amount_words);
+    
     if (node)
     {
         node->name = strdup(name);
+        strcat(node->name, node_name);
+        strcat(node->name, num);
         node->left = NULL;
         node->righ = NULL;
     }
@@ -30,7 +35,7 @@ tree_node_t *create_node(const char *name)
 tree_node_t *insert(tree_node_t *tree, tree_node_t *node)
 {
     int cmp; // вспомагательнaя переменна, которая будет сохранят результат сравнивания
-    
+
     if (tree == NULL)
         return node;
     else
@@ -38,7 +43,10 @@ tree_node_t *insert(tree_node_t *tree, tree_node_t *node)
         cmp = strcmp(node->name, tree->name);
         
         if (cmp == 0)
+        {
+            free(node->name);
             free(node);
+        }
         else if (cmp < 0)
             tree->left = insert(tree->left, node);
         else
@@ -56,16 +64,6 @@ void btree_apply_pre(tree_node_t *tree, void (*f)(tree_node_t *, void *), void *
     f(tree, arg);
     btree_apply_pre(tree->righ, f, arg);
     btree_apply_pre(tree->left, f, arg);
-}
-
-void search_letter_pre(tree_node_t *tree, void (*f)(tree_node_t *, const char, size_t *, void *), const char letter, size_t *count, void *arg)
-{
-    if (tree == NULL)
-        return;
-    
-    f(tree, letter, count, arg);
-    search_letter_pre(tree->righ, f, letter, count, arg);
-    search_letter_pre(tree->left, f, letter, count, arg);
 }
 
 size_t lookup_word(tree_node_t *tree, const char *node_name)
@@ -245,65 +243,27 @@ void sort_file()
     print_array(arr, len);
 }
 
-void fill_array(int *arr, FILE *f_open)
+size_t count_repeating(char (*node_name)[STR_BUFF], const char *node, const size_t length)
 {
-    char node_name[STR_BUFF]; // название узла
-    //size_t flag = 1;
-    char array_char[][STR_BUFF] = {0};
-    char array_char2[][STR_BUFF] = {0};
-    size_t index = 0;
-    
-    while (!feof(f_open) && fscanf(f_open, "%s", node_name))
-    {
-        strcpy(array_char[index++], node_name);
-    }
-    strcpy(array_char2[0], array_char[0]);
-    size_t new_index = 0;
+    size_t count = 0;
 
-    for (size_t i = 1; i < index; i++)
+    for (size_t index = 0; index < length; index++)
     {
-        if(strcmp(array_char[i], array_char2[new_index]) != 0)
-        {
-            new_index++;
-            strcpy(array_char2[new_index], array_char[i]);
-        }
+        if (strcmp(node_name[index], node) == 0)
+            count++;
     }
-    print_array(array_char2, new_index);
+    return count;
 }
 
-void read_tree2(tree_node_t **tree)
+void fill_array(char (*arr)[STR_BUFF], FILE *f_open, size_t *index)
 {
-    FILE *f_open = fopen("./func_tests/data/input_first_tree.txt", "r");
-    tree_node_t *node = NULL; // узель дерева
-    size_t count = 0; // счетчик
-    size_t flag = 1; // флаг
-    char node_name[STR_BUFF]; // название узла
-    int arr[STR_BUFF];
-    char array_char[][STR_BUFF] = {0};
-    
-    if (f_open)
+    *index = 0;
+    char node_name[STR_BUFF];
+
+    while (!feof(f_open))
     {
-        fill_array(arr, f_open);
-        while (!feof(f_open) && flag == 1 && fscanf(f_open, "%s", node_name))
-        {
-            node = create_node(node_name);
-            count += 1;
-
-            if (node != NULL)
-                *tree = insert(*tree, node);
-            else
-            {
-                count -= 1;
-                flag = 0;
-                printf("\tОшибка: Не удалось добавить новый узел!\n");
-            }
-        }
-
-        if (count == 0)
-            printf("\tФайл пустой!\n");
-
-        fclose(f_open);
+        fscanf(f_open, "%s", node_name);
+        strcpy(arr[*index], node_name);
+        *index += 1;
     }
-    else
-        printf("\tОшибка: Не удалось открыть файл!\n");
 }

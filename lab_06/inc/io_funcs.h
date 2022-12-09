@@ -5,6 +5,8 @@
 
 #include <time.h>
 
+#define STR_BUFF 501
+
 /**
  * \brief menu - Меню программы
  */
@@ -27,7 +29,7 @@ void node_to_dot(tree_node_t *tree, void *param);
  * \brief read_tree - Функция, которая читает данные из файла и заполняет дерево
  * \param tree Структура дерева
  */
-void read_tree(tree_node_t **tree);
+void read_tree(tree_node_t **tree, char (*arr_words)[STR_BUFF]);
 
 /**
  * \brief search_letter - Функция, которая определяет количество вершин дерева в дереве, содержащих

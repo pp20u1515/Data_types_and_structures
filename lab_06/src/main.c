@@ -15,6 +15,7 @@ int main()
     int choice = -1;
     char choice_answer[ANSWER_LEN];
     clock_t start, end;
+    char arr_words[][STR_BUFF] = {'\0'}; // массив слов
     
     while (choice != 0)
     {
@@ -42,10 +43,7 @@ int main()
                 return OK;
             case (1):
                 if (tree == NULL)
-                {
-                    read_tree(&tree);
-                    read_tree2(&tree);
-                }
+                    read_tree(&tree, arr_words);
                 else
                     printf("\tДерево построено!\n");
 
@@ -66,8 +64,7 @@ int main()
             case (4):
                 if (tree != NULL)
                 {
-                    search_letter(&tree, &start, &end);
-                    system("xdot ./func_tests/data/painted_tree.dot");
+                    search_word(&tree);
                 }
                 else
                     printf("\tОшибка: Дерево пустое!\n");
@@ -75,20 +72,12 @@ int main()
             case (5):
                 if (tree != NULL)
                 {
-                    search_word(&tree);
-                }
-                else
-                    printf("\tОшибка: Дерево пустое!\n");
-                break;
-            case (6):
-                if (tree != NULL)
-                {
                     delete_node(&tree);
                 }
                 else
                     printf("\tОшибка: Дерево пустое!\n");
                 break;
-            case (7):
+            case (6):
                 if (tree != NULL)
                 {
                     printf("\tВремя поиска буквы в дерево: %.6f сек.\n", (double)(end - start) / CLOCKS_PER_SEC);
@@ -99,7 +88,7 @@ int main()
                 else
                     printf("\tОшибка: Дерево пустое!\n");
                 break;
-            case (8):
+            case (7):
                 if (tree != NULL)
                 {
                     start = clock();

@@ -5,13 +5,15 @@
 
 #include <stdio.h>
 
+#define STR_BUFF 501
+
 /**
  * \brief create_node - Функция, которая создает узел(корень деревья)
  * \param name Название узла
  * \return Дерево
  */
-tree_node_t *create_node(const char *name);
-
+//tree_node_t *create_node(const char *name);
+tree_node_t *create_node(const char *name, const size_t amount_words);
 /**
  * \brief insert - Функция, которая добавляет узел в деревьe
  * \param tree Структура деревья
@@ -106,5 +108,9 @@ void sort_file();
 void find_word(tree_node_t **temp_tree, const char *word, tree_node_t **parent);
 
 void read_tree2(tree_node_t **tree);
+
+tree_node_t *insert2(tree_node_t *tree, tree_node_t *node, const size_t amount_words, size_t *flag);
+void fill_array(char (*arr)[STR_BUFF], FILE *f_open, size_t *index);
+size_t count_repeating(char (*node_name)[STR_BUFF], const char *node, const size_t length);
 
 #endif // TREE_FUNCS_H

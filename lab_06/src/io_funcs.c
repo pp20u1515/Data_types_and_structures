@@ -7,7 +7,6 @@
 #include <string.h>
 
 #define _GNU_SOURCE
-#define STR_BUFF 255
 #define NO_WORD 0
 #define WORD_EXIST 1
 
@@ -17,27 +16,32 @@ void menu()
     printf("\t1) Прочитать дерево из файла.\n\
         2) Вывести дерево на экран.\n\
         3) Добавить узел в дерево.\n\
-        4) Сделать поиск в дерево.\n\
-        5) Найти слово в дереве.\n\
-        6) Удалить слово из дерева.\n\
-        7) Сравнить время поиска слова в дереве и в файле.\n\
-        8) Сравнить время сортировки слов в дереве и в файле.\n\
+        4) Найти слово в дереве.(укажите слово, потом две нижные линии, потом количество повторении)\n\
+        5) Удалить слово из дерева.(укажите слово, потом две нижные линии, потом количество повторении)\n\
+        6) Сравнить время поиска слова в дереве и в файле.\n\
+        7) Сравнить время сортировки слов в дереве и в файле.\n\
         0) Выйти из программы.\n");
 }
 
-void read_tree(tree_node_t **tree)
+void read_tree(tree_node_t **tree, char (*arr_words)[STR_BUFF])
 {
     FILE *f_open = fopen("./func_tests/data/input_first_tree.txt", "r");
     tree_node_t *node = NULL; // узель дерева
     size_t count = 0; // счетчик
     size_t flag = 1; // флаг
     char node_name[STR_BUFF]; // название узла
-    
+    size_t amount_words = 0; // количество повтореный каждого слова
+    size_t index = 0;
+
     if (f_open)
     {
+        fill_array(arr_words, f_open, &index);
+        rewind(f_open);
+
         while (!feof(f_open) && flag == 1 && fscanf(f_open, "%s", node_name))
         {
-            node = create_node(node_name);
+            amount_words = count_repeating(arr_words, node_name, index);
+            node = create_node(node_name, amount_words);
             count += 1;
 
             if (node != NULL)
@@ -150,7 +154,9 @@ void search_file(clock_t *start, clock_t *end)
 void search_word(tree_node_t **tree)
 {
     char word[STR_BUFF]; // название узла 
+    tree_node_t *node = NULL;
     size_t flag = 0;
+    char choice;
 
     printf("\tВведите слово, которое хотите найти: ");
     scanf("%s", word);
@@ -160,7 +166,18 @@ void search_word(tree_node_t **tree)
     if (flag == WORD_EXIST)
         printf("\tСлово <%s> найдено в дереве!\n", word);
     else
+    {
         printf("\tСлово <%s> не найдено в дереве!\n", word);
+        printf("\tХотите его добавить?(y/n): ");
+
+        scanf(" %c", &choice);
+        
+        if (choice == 'y')
+        {
+            node = create_node(word, 1);
+            *tree = insert(*tree, node);
+        }
+    }
 }
 
 void delete_node(tree_node_t **tree)
@@ -184,41 +201,6 @@ void print_array(char **arr, const size_t size)
     for (size_t index = 0; index < size; index++)
         printf("%s ", arr[index]);
     printf("\n");
-}
-
-void lookup(tree_node_t *tree, const char letter, size_t *count, void *arg)
-{
-    FILE *f_write = arg; // выходной файл
-
-    if (f_write)
-    {
-        if (tree->left)
-        {
-            if (tree->left->name[0] == letter)
-            {
-                *count += 1;
-                fprintf(f_write, "{\n");
-                fprintf(f_write, "\t%s [style=filled, fillcolor=brown1]\n", tree->left->name);
-                fprintf(f_write, "}\n");
-                fprintf(f_write, "%s -> %s;\n", tree->name, tree->left->name);
-            }
-            else
-                fprintf(f_write, "%s -> %s;\n", tree->name, tree->left->name);         
-        }
-        if (tree->righ)
-        {
-            if (tree->righ->name[0] == letter)
-            {
-                *count += 1;
-                fprintf(f_write, "{\n");
-                fprintf(f_write, "\t%s [style=filled, fillcolor=brown1]\n", tree->righ->name);
-                fprintf(f_write, "}\n");
-                fprintf(f_write, "%s -> %s;\n", tree->name, tree->righ->name);
-            }
-            else
-                fprintf(f_write, "%s -> %s;\n", tree->name, tree->righ->name);
-        }
-    }
 }
 
 size_t fill_arr(const char *file_name, char **arr)
@@ -251,7 +233,7 @@ void add_node(tree_node_t **tree)
     printf("\tВведите название узла для добавления в дерево: ");
     scanf("%s", word);
 
-    node = create_node(word);
+    node = create_node(word, 1);
 
     if (node)
         *tree = insert(*tree, node);
