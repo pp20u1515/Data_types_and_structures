@@ -5,7 +5,7 @@
 
 #include <stdio.h>
 
-#define STR_BUFF 501
+#define STR_BUFF 25
 
 /**
  * \brief create_node - Функция, которая создает узел(корень деревья)
@@ -53,7 +53,7 @@ void search_letter_pre(tree_node_t *tree, void (*f)(tree_node_t *, const char, s
  * \param node_name Название узла, который хотим найти
  * \return Результат поиска
  */
-size_t lookup_word(tree_node_t *tree, const char *node_name);
+size_t lookup_word(tree_node_t *tree, const char *node_name, size_t *flag);
 
 /**
  * \brief search_word_pre - Поиск слова в дерево в префиксной форме
@@ -62,7 +62,7 @@ size_t lookup_word(tree_node_t *tree, const char *node_name);
  * \param node_named Слово
  * \param flag Флаг
  */
-void search_word_pre(tree_node_t *tree, size_t (*f)(tree_node_t *, const char *), const char *node_name, size_t *flag);
+void search_word_pre(tree_node_t *tree, size_t (*f)(tree_node_t *, const char *, size_t *), const char *node_name, size_t *flag);
 
 /**
  * \brief delete_word_pre - Удаление слова в дерево в префиксной форме
@@ -111,6 +111,6 @@ void read_tree2(tree_node_t **tree);
 
 tree_node_t *insert2(tree_node_t *tree, tree_node_t *node, const size_t amount_words, size_t *flag);
 void fill_array(char (*arr)[STR_BUFF], FILE *f_open, size_t *index);
-size_t count_repeating(char (*node_name)[STR_BUFF], const char *node, const size_t length);
+size_t count_repeating(char **node_name, const char *node, const size_t length);
 
 #endif // TREE_FUNCS_H

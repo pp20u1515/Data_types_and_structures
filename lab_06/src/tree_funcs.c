@@ -8,7 +8,7 @@
 
 #define NO_WORD 0
 #define WORD_EXIST 1
-#define STR_BUFF 501
+#define STR_BUFF 25
 
 tree_node_t *create_node(const char *name, const size_t amount_words)
 {
@@ -16,7 +16,7 @@ tree_node_t *create_node(const char *name, const size_t amount_words)
     char *node_name = "__";
     char num[STR_BUFF];
     
-    snprintf(num, amount_words + 1, "%d", amount_words);
+    snprintf(num, amount_words + 1, "%zu", amount_words);
     
     if (node)
     {
@@ -66,17 +66,20 @@ void btree_apply_pre(tree_node_t *tree, void (*f)(tree_node_t *, void *), void *
     btree_apply_pre(tree->left, f, arg);
 }
 
-size_t lookup_word(tree_node_t *tree, const char *node_name)
+size_t lookup_word(tree_node_t *tree, const char *node_name, size_t *flag)
 {
     int cmp; // вспомагательнaя переменна, которая будет сохранят результат сравнивания
     size_t rc = NO_WORD; // код возврата
 
-    while (tree)
+    while (*flag == 0 && tree)
     {
-        cmp = strcmp(tree->name, node_name);
-
+        cmp = strcmp(node_name, tree->name);
+    
         if (cmp == 0)
+        {
+            *flag = 1;
             return WORD_EXIST;
+        }
         else if (cmp < 0)
             tree = tree->left;
         else
@@ -86,16 +89,17 @@ size_t lookup_word(tree_node_t *tree, const char *node_name)
     return rc;
 }
 
-void search_word_pre(tree_node_t *tree, size_t (*f)(tree_node_t *, const char *), const char *node_name, size_t *flag)
+void search_word_pre(tree_node_t *tree, size_t (*f)(tree_node_t *, const char *, size_t *), const char *node_name, size_t *flag)
 {
     int rc = NO_WORD; // код возврата
-
+    size_t flag2 = 0;
+    
     if (tree == NULL)
         return;
 
     if (*flag == 0)
-        rc = f(tree, node_name);
-
+        rc = f(tree, node_name, &flag2);
+    
     if (rc == WORD_EXIST)
     {
         *flag = 1;
@@ -243,7 +247,7 @@ void sort_file()
     print_array(arr, len);
 }
 
-size_t count_repeating(char (*node_name)[STR_BUFF], const char *node, const size_t length)
+size_t count_repeating(char **node_name, const char *node, const size_t length)
 {
     size_t count = 0;
 
@@ -265,5 +269,6 @@ void fill_array(char (*arr)[STR_BUFF], FILE *f_open, size_t *index)
         fscanf(f_open, "%s", node_name);
         strcpy(arr[*index], node_name);
         *index += 1;
+        
     }
 }

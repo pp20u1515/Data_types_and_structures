@@ -82,11 +82,14 @@ void new_req(double *total_time, struct queue *queue, struct oa *oa, struct mem_
     
     if (queue->pin != NULL)
         queue->pin->next = buf;
+
     buf->next = NULL;
     buf->arrival_time = *total_time;
     queue->pin = buf;
+    
     if (queue->len == 0)
         queue->pout = buf;
+    
     queue->len++;
     queue->in_num++;
     add_mem(buf, mem);

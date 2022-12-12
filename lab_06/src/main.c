@@ -15,7 +15,6 @@ int main()
     int choice = -1;
     char choice_answer[ANSWER_LEN];
     clock_t start, end;
-    char arr_words[][STR_BUFF] = {'\0'}; // массив слов
     
     while (choice != 0)
     {
@@ -43,7 +42,7 @@ int main()
                 return OK;
             case (1):
                 if (tree == NULL)
-                    read_tree(&tree, arr_words);
+                    read_tree(&tree);
                 else
                     printf("\tДерево построено!\n");
 
@@ -64,7 +63,7 @@ int main()
             case (4):
                 if (tree != NULL)
                 {
-                    search_word(&tree);
+                    search_word(&tree, &start, &end);
                 }
                 else
                     printf("\tОшибка: Дерево пустое!\n");
@@ -80,10 +79,10 @@ int main()
             case (6):
                 if (tree != NULL)
                 {
-                    printf("\tВремя поиска буквы в дерево: %.6f сек.\n", (double)(end - start) / CLOCKS_PER_SEC);
+                    printf("\tВремя поиска слова в дерево: %.6f сек.\n", (double)(end - start) / CLOCKS_PER_SEC);
                     
                     search_file(&start, &end);
-                    printf("\tВремя поиска буквы в файле: %.6f сек.\n", (double)(end - start) / CLOCKS_PER_SEC );
+                    printf("\tВремя поиска слова в файле: %.6f сек.\n", (double)(end - start) / CLOCKS_PER_SEC );
                 }
                 else
                     printf("\tОшибка: Дерево пустое!\n");

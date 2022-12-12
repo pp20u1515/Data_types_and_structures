@@ -2,7 +2,7 @@ CC := gcc
 SRC := ./src/
 INC := ./inc/
 OBJ := ./obj/
-CFLAGS := -std=gnu99 -I../inc/ -lm #-Wall -Werror -Wextra -Wfloat-equal -Wfloat-conversion -Wpedantic -Wvla -I../inc/
+CFLAGS := -std=gnu99 -I../inc/ -lm -Wall -Werror -Wextra -Wfloat-equal -Wfloat-conversion -Wpedantic -Wvla -I../inc/
 
 .PHONY: clean
 

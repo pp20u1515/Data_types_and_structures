@@ -1,6 +1,6 @@
 digraph tree {
 da__1;
-da__1 -> asd__1;
+da__1 -> aa__6;
 da__1 -> dd__3;
 dd__3;
 dd__3 -> vxcvxc__1;
@@ -21,8 +21,8 @@ hjk__1;
 hjk__1 -> oipiopiopi__1;
 oipiopiopi__1;
 gfhfg__1;
-gfhfg__1 -> dfg__1;
-dfg__1;
+aa__6;
+aa__6 -> asd__1;
 asd__1;
 asd__1 -> asbbbm__1;
 asd__1 -> asdasd__2;

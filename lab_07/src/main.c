@@ -57,8 +57,8 @@ int main(int argc, char **argv)
                     show_tree(&tree, argv[2]);
                     show_tree(&balanced_tree, argv[3]);
                     show_hash_table(hash_table);
-                    //system("xdot ./func_tests/data/output_btree.dot");
-                    //system("xdot ./func_tests/data/output_balanced_tree.dot");
+                    system("xdot ./func_tests/data/output_btree.dot");
+                    system("xdot ./func_tests/data/output_balanced_tree.dot");
                 }
                 else
                     printf("\tОшибка: Дерево пустое!\n");

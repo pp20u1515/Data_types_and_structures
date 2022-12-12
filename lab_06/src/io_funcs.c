@@ -9,6 +9,7 @@
 #define _GNU_SOURCE
 #define NO_WORD 0
 #define WORD_EXIST 1
+#define STR_BUFF 25
 
 void menu()
 {
@@ -23,24 +24,38 @@ void menu()
         0) Выйти из программы.\n");
 }
 
-void read_tree(tree_node_t **tree, char (*arr_words)[STR_BUFF])
+void read_tree(tree_node_t **tree)
 {
     FILE *f_open = fopen("./func_tests/data/input_first_tree.txt", "r");
     tree_node_t *node = NULL; // узель дерева
     size_t count = 0; // счетчик
     size_t flag = 1; // флаг
     char node_name[STR_BUFF]; // название узла
+    char **arr = NULL;
     size_t amount_words = 0; // количество повтореный каждого слова
     size_t index = 0;
 
     if (f_open)
     {
-        fill_array(arr_words, f_open, &index);
+        //*index = 0;
+        arr = calloc(STR_BUFF, sizeof(char *));
+
+        while (!feof(f_open))
+        {
+            arr[index] = malloc(sizeof(char));
+            fscanf(f_open, "%s", node_name);
+            arr[index] = strdup(node_name);
+            //printf("%s\n", arr[index]);
+            //printf(" \n");
+            index += 1;
+            
+        }
+        //fill_array(arr_words, f_open, &index);
         rewind(f_open);
 
         while (!feof(f_open) && flag == 1 && fscanf(f_open, "%s", node_name))
         {
-            amount_words = count_repeating(arr_words, node_name, index);
+            amount_words = count_repeating(arr, node_name, index);
             node = create_node(node_name, amount_words);
             count += 1;
 
@@ -95,63 +110,7 @@ void show_tree(tree_node_t **tree)
         printf("\tОшибка: Не удалось открыть файл!\n");
 }
 
-void search_letter(tree_node_t **tree, clock_t *start, clock_t *end)
-{
-    char letter; // ввод буквы
-    size_t result = 0; // результат поиска буквы
-    FILE *painted_tree = fopen("./func_tests/data/painted_tree.dot", "w");
-
-    printf("\tВведите букву:");
-    if (scanf(" %c", &letter) && painted_tree)
-    {
-        *start = clock();
-        fprintf(painted_tree, "digraph %s {\n", "painted_tree");
-
-        if ((*tree)->name[0] == letter)
-        {
-            fprintf(painted_tree, "{\n");
-
-            fprintf(painted_tree, "\t%s [style=filled, fillcolor=brown1]\n", (*tree)->name);
-            fprintf(painted_tree, "}\n");
-            result += 1;
-        }
-
-        search_letter_pre(*tree, lookup, letter, &result, painted_tree);
-        fprintf(painted_tree, "}\n");
-        *end = clock();
-        
-        printf("\tКоличество слов, которые начинают на букву <%c> = %zu\n", letter, result);
-        fclose(painted_tree);
-    }
-}
-
-void search_file(clock_t *start, clock_t *end)
-{
-    size_t count = 0; // счетчик
-    ssize_t read; // код возврата функции getline
-    size_t len = 0; // размер элемента в байтах
-    char *node_name = NULL; // название узла
-    char letter; // входная буква
-    FILE *f_open = fopen("./func_tests/data/input_first_tree.txt", "r");
-    
-    printf("\tВведите букву:");
-
-    if (f_open && scanf(" %c", &letter))
-    {
-        *start = clock();
-        
-        while ((read = getline(&node_name, &len, f_open)) != -1)
-        {
-            if (node_name[0] == letter)
-                count += 1;
-        }
-        *end = clock();
-        
-        fclose(f_open);
-    }
-}
-
-void search_word(tree_node_t **tree)
+void search_word(tree_node_t **tree, clock_t *start, clock_t *end)
 {
     char word[STR_BUFF]; // название узла 
     tree_node_t *node = NULL;
@@ -161,7 +120,10 @@ void search_word(tree_node_t **tree)
     printf("\tВведите слово, которое хотите найти: ");
     scanf("%s", word);
 
+    *start = clock();
+
     search_word_pre(*tree, lookup_word, word, &flag);
+    *end = clock();
 
     if (flag == WORD_EXIST)
         printf("\tСлово <%s> найдено в дереве!\n", word);
@@ -177,6 +139,48 @@ void search_word(tree_node_t **tree)
             node = create_node(word, 1);
             *tree = insert(*tree, node);
         }
+    }
+}
+
+void search_file(clock_t *start, clock_t *end)
+{
+    char node_name[STR_BUFF];
+    size_t len = 0;
+    ssize_t read;
+    char *node;
+    size_t flag = 0;
+    FILE *f_open = fopen("./func_tests/data/input_first_tree.txt", "r");
+
+    printf("\tВведите слово которое хотите найти: ");
+    scanf("%s", node_name);
+    
+    *start = clock();
+    if (f_open)
+    {
+        while (flag == 0 && (read = getline(&node, &len, f_open)) != -1)
+        {
+            if (strcmp(node, node_name) == 0)
+                flag = 1;
+        }
+    }
+    else
+        printf("\tОшибко: Не удалось открыть файл!\n");
+
+    *end = clock();
+}
+
+void print_tree(FILE *f_write, tree_node_t *tree)
+{
+    while (tree)
+    {
+        if (tree)
+            fprintf(f_write, "%s\n", tree->name);
+
+        if (tree->left)
+            fprintf(f_write, "%s\n", tree->left->name); 
+        
+        if (tree->righ)
+            fprintf(f_write, "%s\n", tree->righ->name);
     }
 }
 

@@ -84,7 +84,7 @@ void new_height(tree_node_t *tree)
 {
     size_t left_height = what_height(tree->left); // высота левого поддерева
     size_t right_height = what_height(tree->right); // высота правого поддерева
-
+    
     tree->height = ((left_height > right_height) ? left_height : right_height) + 1;
 }
 
@@ -98,8 +98,9 @@ tree_node_t *turn_right(tree_node_t *tree)
     tree_node_t *temp_tree = tree->left;
     tree->left = temp_tree->right;
     temp_tree->right = tree;
-
+    printf("tree->height->before = %zu\n", tree->height);
     new_height(tree);
+    printf("tree->height->after = %zu\n", tree->height);
     new_height(temp_tree);
 
     return temp_tree;
@@ -120,9 +121,10 @@ tree_node_t *turn_left(tree_node_t *tree)
 tree_node_t *balance_node(tree_node_t *tree)
 {
     new_height(tree);
-
+    
     if (difference_in_length(tree) == 2)
     {
+        printf("SADASDAS\n");
         if (difference_in_length(tree->right) < 0)
             tree->right = turn_right(tree->right);
 

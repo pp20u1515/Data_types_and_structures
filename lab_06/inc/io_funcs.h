@@ -5,7 +5,7 @@
 
 #include <time.h>
 
-#define STR_BUFF 501
+#define STR_BUFF 25
 
 /**
  * \brief menu - Меню программы
@@ -29,16 +29,7 @@ void node_to_dot(tree_node_t *tree, void *param);
  * \brief read_tree - Функция, которая читает данные из файла и заполняет дерево
  * \param tree Структура дерева
  */
-void read_tree(tree_node_t **tree, char (*arr_words)[STR_BUFF]);
-
-/**
- * \brief search_letter - Функция, которая определяет количество вершин дерева в дереве, содержащих
- * слова, начинающиеся на указанную букву
- * \param tree Структура дерева
- * \param start Текущее время, перед запуском функции search_letter
- * \param end Время, после запуска функции search_letter
- */
-void search_letter(tree_node_t **tree, clock_t *start, clock_t *end);
+void read_tree(tree_node_t **tree);
 
 /**
  * \brief search_file - Функция, которая определяет количество вершин дерева в файле, содержащих
@@ -58,7 +49,7 @@ void delete_node(tree_node_t **tree);
  * \brief search_word - Функция, которая ищет первое вхождение указаного слова в дереве 
  * \param tree Структура дерева
  */
-void search_word(tree_node_t **tree);
+void search_word(tree_node_t **tree, clock_t *start, clock_t *end);
 
 /**
  * \brief print_array - Функция, которая выводит массив
@@ -66,15 +57,6 @@ void search_word(tree_node_t **tree);
  * \param size Размер массива
  */
 void print_array(char **arr, const size_t size);
-
-/**
- * \brief lookup - Функция, которая выполняет поиск буквы в слово
- * \param tree Структура дерева
- * \param letter Буква
- * \param count Считчик
- * \param arg Параметр (выходный файл)
- */
-void lookup(tree_node_t *tree, const char letter, size_t *count, void *arg);
 
 /**
  * \brief fill_arr - Функция, которая заполнаяет массив элементами

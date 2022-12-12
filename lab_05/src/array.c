@@ -17,14 +17,16 @@ unsigned long model_arr(int *mem_used)
     unsigned long time = tick(), t_buf1 = 0, t_buf2 = 0;
     while (f != 2 && oa.processed_count < TOTAL_NEED)
     {
-
+        //пока в очереди нет элементов, нужно подождать, пока новый элемент войдет в очередь
         while (queue.len == 0 || oa.time > total_time)
         {
             new_req_arr(&total_time, &oa, &queue, arr, all);
-
+            //Если указатель на начало очереди достиг конца массива, то при добавление следующего
+            // элемента- он добавляется в начало массива
             if (queue.len != 0 && queue.len != 1 && queue.pout == queue.pin)
                 f = 2; 
         }
+
 
         if (f != 2)
             f = processing_arr(&oa, &queue, arr, all);

@@ -38,7 +38,7 @@ void read_tree(tree_node_t **tree, tree_node_t **balanced_tree, const char *file
             node_balance = create_node(node_name);
             count += 1;
 
-            if (node != NULL)
+            if (node != NULL && node_balance != NULL)
             {
                 *tree = insert(*tree, node);
                 *balanced_tree = insert_balance(*balanced_tree, node_balance);
@@ -50,7 +50,6 @@ void read_tree(tree_node_t **tree, tree_node_t **balanced_tree, const char *file
                 printf("\tОшибка: Не удалось добавить новый узел!\n");
             }
         }
-
         if (count == 0)
             printf("\tФайл пустой!\n");
 
