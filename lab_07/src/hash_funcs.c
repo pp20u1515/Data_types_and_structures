@@ -158,7 +158,35 @@ hash_t *load_table(hash_t *hash_table, char *key, const size_t limit)
     return hash_table;
 }
 
-size_t lookup_word_hash(hash_t *hash_table, const char *key)
+hash_t *load_table2(hash_t *hash_table, char *key, const size_t limit)
+{
+    if (hash_table)
+    {
+        if (duplicate_key(hash_table, key))
+            return hash_table;
+
+        int key_len = get_len(key);
+        int h = hash_function(key_len, hash_table->max_size);
+        size_t cur_limit = 0; // проверка колизии
+
+        while (hash_table->data[h % hash_table->max_size].flag == 1)
+        {
+            h++;
+            cur_limit++;
+        }
+        
+        if (h >= hash_table->max_size)
+            h %= hash_table->max_size;
+        
+        hash_table->limit += (cur_limit == 0) ? 0 : 1;
+        hash_table->data[h].value = strdup(key);
+        hash_table->data[h].flag = 1;
+    }
+    
+    return hash_table;
+}
+
+size_t lookup_word_hash_closed(hash_t *hash_table, const char *key)
 {
     size_t index = 0;
     size_t flag = 0;

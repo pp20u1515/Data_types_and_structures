@@ -74,7 +74,7 @@ void new_height(tree_node_t *tree);
  * \param tree Структура дерева
  * \return Длина узла
  */
-size_t what_height(tree_node_t *tree);
+int what_height(tree_node_t *tree);
 
 /**
  * \brief difference_in_length - Функция, которая определяет разницу между длинами в вершинах
@@ -96,5 +96,7 @@ tree_node_t *turn_right(tree_node_t *tree);
  * \return Изменненое дерево
  */
 tree_node_t *turn_left(tree_node_t *tree);
+
+void compare_structures(hash_t **hash_table, tree_node_t **tree, tree_node_t **balanced_tree, const char *file_name);
 
 #endif // TREE_FUNCS_H

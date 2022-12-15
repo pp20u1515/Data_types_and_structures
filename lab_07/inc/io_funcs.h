@@ -45,12 +45,16 @@ void search_word(tree_node_t **tree, tree_node_t **balanced_tree, hash_t **hash_
  * \param hash_table Структура хеш-таблицы
  * \param file_name Название файла
  */
-void read_table(hash_t **hash_table, const char *file_name);
+void read_table(hash_t **hash_table1, hash_t **hash_table2, const char *file_name);
 
 /**
  * \brief show_hash_table - Функция, которая выводит хеш-таблицу
  * \param hash_table Структура хеш-таблицы
  */
 void show_hash_table(hash_t *hash_table);
+
+void add_to_tree(tree_node_t **tree, tree_node_t **balanced_tree);
+
+void add_to_hash(hash_t **hash_table1, hash_t **hash_table2);
 
 #endif // IO_FUNCS_H
