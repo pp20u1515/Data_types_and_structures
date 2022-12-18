@@ -2,6 +2,7 @@
 #include "return_codes.h"
 #include "tree_funcs.h"
 #include "hash_funcs.h"
+#include "opened_hash_funcs.h"
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -11,6 +12,7 @@
 #define NO_WORD 0
 #define WORD_EXIST 1
 #define LIMIT 23 // количество элементов
+#define RESTRUCTION_VALUE 5
 
 void menu()
 {
@@ -61,25 +63,26 @@ void read_tree(tree_node_t **tree, tree_node_t **balanced_tree, const char *file
         printf("\tОшибка: Не удалось открыть файл!\n");
 }
 
-void read_table(hash_t **hash_table1, hash_t **hash_table2, const char *file_name)
+void read_table(hash_t **hash_table1, hash_tbl_t **hash_table2, const char *file_name)
 {
     FILE *f_open = fopen(file_name, "r"); // входный файл
-    hash_t *temp_hash_table1 = NULL, *temp_hash_table2 = NULL; // вспомогательная структура хеш-таблицы 
+    hash_t *temp_hash_table1 = NULL; // вспомогательная структура хеш-таблицы
+    hash_tbl_t *temp_hash_table2 = NULL; // вспомогательная структура хеш-таблицы 
     char word[STR_BUFF]; // входное слово 
     int count= 0;
+
     if (f_open)
     {
         temp_hash_table1 = create_table(LIMIT);
-        temp_hash_table2 = create_table(LIMIT);
-
+        create_table2(temp_hash_table2, LIMIT);
+        
         if (temp_hash_table1 && temp_hash_table2)
             while (!feof(f_open))
             {
                 count++;
                 fscanf(f_open, "%s", word);
-                
-                temp_hash_table1 = load_table(temp_hash_table1, word, LIMIT);
-                temp_hash_table2 = load_table2(temp_hash_table2, word, LIMIT);
+                temp_hash_table1 = load_table(temp_hash_table1, word, RESTRUCTION_VALUE);
+                load_table2(temp_hash_table2, word);
 
                 temp_hash_table1->size += 1;
                 temp_hash_table2->size += 1;
@@ -200,6 +203,31 @@ void show_hash_table(hash_t *hash_table)
     printf("\n");
 }
 
+void show_hash_table2(hash_t *hash_table)
+{
+    printf("\n\tХеш-таблица:\n\n");
+    printf("+-------+---------+-------------+\n");
+    printf("|   №   |   Хеш   |     Слово   |\n");
+    printf("+-------+---------+-------------+\n");
+
+    for (size_t index = 0, count = 0; index < hash_table->max_size; index++)
+    {
+        if (hash_table[index].data->value != NULL)
+        {
+            int key_len = get_len(hash_table[index].data->value);
+
+            printf("|%4zu   |%7d   |%9s   |\n", count, hash_function(key_len, hash_table->max_size), \
+            hash_table[index].data->value);
+
+            count++;
+        }
+    }
+    printf("+-------+---------+-------------+\n");
+
+    printf("\tКоличество колизии: %zu\n", hash_table->limit);
+    printf("\n");
+}
+
 void add_to_tree(tree_node_t **tree, tree_node_t **balanced_tree)
 {
     char node_name[STR_BUFF];
@@ -219,15 +247,18 @@ void add_to_tree(tree_node_t **tree, tree_node_t **balanced_tree)
     else
         printf("\tОшибка: Не удалось добавить новый узел!\n");
 }
-
+/*
 void add_to_hash(hash_t **hash_table1, hash_t **hash_table2)
 {
     char node_name[STR_BUFF]; 
+    cell_t *hash_node = NULL;
     
     printf("\tВведите слово, которое хотите добавить в дерево: ");
     scanf("%s", node_name);
+
+    hash_node = table_data2(node_name);
+    *hash_table1 = load_table(*hash_table1, node_name, LIMIT);
+    *hash_table2 = load_table2(*hash_table2, hash_node, LIMIT);
     (*hash_table1)->size += 1;
     (*hash_table2)->size += 1;
-    *hash_table1 = load_table(*hash_table1, node_name, LIMIT);
-    *hash_table2 = load_table2(*hash_table2, node_name, LIMIT);
-}
+}*/

@@ -106,7 +106,7 @@ size_t duplicate_key(hash_t *hash_table, const char *word)
     while (limit < hash_table->max_size)
     {
         limit++;
-
+        
         if (hash_table->data[hash_function(i, hash_table->max_size)].value != NULL &&\
         strcmp(hash_table->data[hash_function(i, hash_table->max_size)].value, word) == 0 && \
         hash_table->data[hash_function(i, hash_table->max_size)].flag == 1)
@@ -114,6 +114,7 @@ size_t duplicate_key(hash_t *hash_table, const char *word)
         
         i++;
     }
+    
     return OK;
 }
 
@@ -155,34 +156,6 @@ hash_t *load_table(hash_t *hash_table, char *key, const size_t limit)
         hash_table->data[h].value = strdup(key);
         hash_table->data[h].flag = 1;
     }
-    return hash_table;
-}
-
-hash_t *load_table2(hash_t *hash_table, char *key, const size_t limit)
-{
-    if (hash_table)
-    {
-        if (duplicate_key(hash_table, key))
-            return hash_table;
-
-        int key_len = get_len(key);
-        int h = hash_function(key_len, hash_table->max_size);
-        size_t cur_limit = 0; // проверка колизии
-
-        while (hash_table->data[h % hash_table->max_size].flag == 1)
-        {
-            h++;
-            cur_limit++;
-        }
-        
-        if (h >= hash_table->max_size)
-            h %= hash_table->max_size;
-        
-        hash_table->limit += (cur_limit == 0) ? 0 : 1;
-        hash_table->data[h].value = strdup(key);
-        hash_table->data[h].flag = 1;
-    }
-    
     return hash_table;
 }
 

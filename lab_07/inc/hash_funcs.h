@@ -27,6 +27,4 @@ int get_len(const char *word);
 
 size_t lookup_word_hash_closed(hash_t *hash_table, const char *key);
 
-hash_t *load_table2(hash_t *hash_table, char *key, const size_t limit);
-
 #endif // HASH_FUNCS_H

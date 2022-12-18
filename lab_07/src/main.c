@@ -12,7 +12,8 @@
 int main(int argc, char **argv)
 {
     tree_node_t *tree = NULL, *balanced_tree = NULL; // Структура дерева
-    hash_t *hash_table1 = NULL, *hash_table2 = NULL; // Структура хеш-таблицы
+    hash_t *hash_table1 = NULL; // Структура хеш-таблицы
+    hash_tbl_t *hash_table2 = NULL;
     int choice = -1; // Выбор действия
     char choice_answer[ANSWER_LEN];
     clock_t start, end;
@@ -67,7 +68,7 @@ int main(int argc, char **argv)
                 if (hash_table1 && hash_table2)
                 {
                     show_hash_table(hash_table1);
-                    show_hash_table(hash_table2);
+                    //show_hash_table2(hash_table2);
                 }   
                 else
                     printf("\tХеш-таблицы пустые!\n");
@@ -90,7 +91,7 @@ int main(int argc, char **argv)
                 break;
             case (6):
                 add_to_tree(&tree, &balanced_tree);
-                add_to_hash(&hash_table1, &hash_table2);
+                //add_to_hash(&hash_table1, &hash_table2);
                 break;
             default:
                 printf("\tОшибка: Вы выбрали неправильное действие!\n");

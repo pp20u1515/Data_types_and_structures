@@ -15,6 +15,7 @@ typedef struct cell_t
 {
     size_t flag; // показатель, что ячецка занята
 	char *value; // данные ячейки
+    struct cell_t *next;
 }cell_t;
 
 typedef struct hash_t
@@ -24,5 +25,12 @@ typedef struct hash_t
 	size_t size; // текущий размер таблицы
 	size_t max_size; // максимальный размер таблицы
 }hash_t;
+
+typedef struct hash_tbl_t
+{
+    cell_t **data;
+    size_t size; // текущий размер таблицы
+    size_t max_size; // максимальный размер таблицы
+}hash_tbl_t;
 
 #endif // STRUCT_H
